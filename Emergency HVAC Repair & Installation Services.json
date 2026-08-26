@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency HVAC service demo site",
+    "industry_classification": "Emergency HVAC Repair & Installation Services",
+    "skin": "hvac-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "ClimateGuard Emergency HVAC",
+    "client_legal_name": "ClimateGuard Heating & Air Conditioning LLC",
+    "client_phone": "(888) 555-HEAT",
+    "client_email": "dispatch@climateguardhvac.com",
+    "client_address": "820 Thermal Boulevard",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10003",
+    "client_owner_name": "Arthur Sterling",
+    "client_year_founded": "2009",
+    "client_tagline": "24/7 Emergency HVAC Repair — Cool in Summer, Warm in Winter",
+    "client_website_url": "https://www.climateguardhvac.com",
+    "client_google_profile_url": "https://maps.google.com/?q=ClimateGuard+HVAC",
+    "service_area": "Greater Metropolis Area & Surrounding Counties",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY HVAC DISPATCH ACTIVE: Standby technicians deployed for heat wave and freeze outages.",
+    "industry": "Emergency HVAC Repair & Installation",
+    "service_name": "24/7 Emergency HVAC Repair & Installation",
+    "service_description": "Immediate professional response for AC system failures during scorching summer heat waves and furnace outages during winter freezes.",
+    "trust_badge_license": "Certified HVAC Contractor (#HVAC-449102)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "Same-Day Climate Restoration & 100% Comfort Guarantee",
+    "hero_image_url": "images/hvac-emergency-hero.jpg",
+    "hero_image_alt": "Emergency HVAC technician repairing a residential heat pump",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,340",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "Our AC completely died during a 95-degree July heat wave with elderly parents at home. ClimateGuard arrived in 35 minutes and replaced a blown capacitor on the spot!",
+    "review_1_author": "Brenda Lawson",
+    "review_1_date": "3 weeks ago",
+    "review_2_text": "Furnace quit working during a sub-zero winter freeze at midnight. Their on-call technician had our heat running again within an hour. Absolute lifesavers.",
+    "review_2_author": "Greg Miller",
+    "review_2_date": "4 months ago",
+    "review_3_text": "Transparent pricing, extremely professional, and fast emergency response when our heat pump failed right before the weekend.",
+    "review_3_author": "Samantha Cole",
+    "review_3_date": "2 weeks ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "AC Down in the Heat or Furnace Out in the Freeze? Call Our 24/7 Hotline!",
+    "tier_1_name": "Standard HVAC Diagnostic",
+    "tier_1_price": "$99",
+    "tier_1_description": "Comprehensive system diagnostic and minor adjustment for non-critical heating or cooling issues.",
+    "tier_1_features": "Electrical check, thermostat calibration, airflow assessment, 30-day repair warranty",
+    "tier_2_name": "Emergency Climate Rescue",
+    "tier_2_price": "$189",
+    "tier_2_description": "Priority dispatch for sudden AC breakdowns during heat waves and furnace failures in winter freezes.",
+    "tier_2_features": "Immediate dispatch, diagnostic fee waived with repair, fully stocked truck parts inventory",
+    "tier_3_name": "Emergency System Replacement",
+    "tier_3_price": "$450",
+    "tier_3_description": "Emergency removal and temporary heating/cooling deployment followed by full replacement scheduling.",
+    "tier_3_features": "Temporary portable climate units provided, priority crane/install scheduling, financing options",
+    "faq_1_question": "What should I check before calling for emergency HVAC repair?",
+    "faq_1_answer": "Check your circuit breaker to ensure the unit didn't trip, verify your thermostat batteries and settings, and replace a dirty air filter if airflow is blocked.",
+    "faq_2_question": "Do you charge extra for midnight or weekend emergency calls?",
+    "faq_2_answer": "We offer upfront, flat-rate emergency pricing so you always know the exact cost before any repair work begins, regardless of the hour.",
+    "faq_3_question": "How fast can an HVAC technician arrive at my home?",
+    "faq_3_answer": "During extreme weather alerts (heat waves or freezes), our average emergency on-site arrival time is between 30 and 45 minutes.",
+    "faq_4_question": "Can a failing capacitor cause my air conditioner to stop blowing cold air?",
+    "faq_4_answer": "Yes! A blown or weak compressor capacitor is one of the most common reasons an AC unit hums but fails to start cooling during summer heat.",
+    "faq_5_question": "Are your technicians certified to handle refrigerants and gas lines?",
+    "faq_5_answer": "Every ClimateGuard technician is EPA-certified for refrigerant handling and fully licensed for gas furnace and electrical repairs.",
+    "step_1_title": "Call 24/7 Climate Dispatch",
+    "step_1_description": "Report your heating or cooling emergency to our live dispatch team for immediate routing.",
+    "step_2_title": "Rapid Mobile Deployment",
+    "step_2_description": "Our certified HVAC specialist arrives in a fully stocked service vehicle ready to diagnose the failure.",
+    "step_3_title": "Comfort Restored",
+    "step_3_description": "We execute the necessary electrical, mechanical, or refrigerant repair to restore your home climate immediately.",
+    "before_image_url": "images/hvac-before.jpg",
+    "before_image_alt": "Frozen outdoor AC unit or failed furnace prior to repair",
+    "after_image_url": "images/hvac-after.jpg",
+    "after_image_alt": "Fully repaired, operational climate control system",
+    "project_caption": "Emergency midnight furnace igniter replacement during winter freeze in Metropolis.",
+    "guarantee_headline": "The ClimateGuard 100% Comfort Guarantee",
+    "guarantee_description": "We guarantee our emergency repairs. If your system experiences the same breakdown within 1 year, we return and fix it completely free.",
+    "guarantee_terms": "Valid for all completed component replacements and repairs performed by ClimateGuard certified technicians.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How We Handle Emergency HVAC Failures in Extreme Weather",
+    "video_caption": "Watch our rapid-response technicians diagnose and repair complex heating and cooling systems.",
+    "social_facebook_url": "https://facebook.com/climateguardhvac",
+    "social_instagram_url": "https://instagram.com/climateguardhvac",
+    "social_nextdoor_url": "https://nextdoor.com/pages/climateguard-hvac",
+    "social_yelp_url": "https://yelp.com/biz/climateguard-hvac-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Emergency AC Failure Repair",
+      "service_slug": "emergency-ac-repair",
+      "service_description": "Rapid diagnosis and repair for air conditioners failing during peak summer heat waves.",
+      "service_icon_url": "icons/ac-repair.svg"
+    },
+    {
+      "service_name": "Emergency Furnace Outage Repair",
+      "service_slug": "emergency-furnace-repair",
+      "service_description": "Instant heat restoration for gas and electric furnaces failing during winter freezes.",
+      "service_icon_url": "icons/furnace-repair.svg"
+    },
+    {
+      "service_name": "Heat Pump Emergency Service",
+      "service_slug": "heat-pump-service",
+      "service_description": "Urgent troubleshooting and reversing valve or compressor repairs for malfunctioning heat pumps.",
+      "service_icon_url": "icons/heat-pump.svg"
+    },
+    {
+      "service_name": "Blower Motor & Electrical Repair",
+      "service_slug": "blower-motor-repair",
+      "service_description": "Emergency replacement of blown capacitors, failing blower motors, and tripped HVAC circuits.",
+      "service_icon_url": "icons/motor-repair.svg"
+    },
+    {
+      "service_name": "Thermostat & Control Diagnostics",
+      "service_slug": "thermostat-diagnostics",
+      "service_description": "Smart and programmable thermostat troubleshooting, rewiring, and emergency recalibration.",
+      "service_icon_url": "icons/thermostat.svg"
+    },
+    {
+      "service_name": "Emergency Ductless Mini-Split Repair",
+      "service_slug": "ductless-mini-split-repair",
+      "service_description": "Rapid repair and refrigerant recharge for ductless zoned heating and cooling systems.",
+      "service_icon_url": "icons/mini-split.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "Why AC Systems Fail During Peak Summer Heat Waves",
+      "post_slug": "ac-failures-summer-heat-waves",
+      "post_excerpt": "Capacitor blowouts, dirty condenser coils, and refrigerant leaks are top culprits behind sudden cooling outages.",
+      "post_date": "May 15, 2026",
+      "post_image_url": "images/blog-ac.jpg",
+      "post_category": "Cooling Tips"
+    },
+    {
+      "post_title": "Emergency Steps When Your Furnace Quits During a Winter Freeze",
+      "post_slug": "furnace-quits-winter-freeze",
+      "post_excerpt": "Check your igniter, pilot light, and air filters before panic sets in during sub-zero weather.",
+      "post_date": "April 29, 2026",
+      "post_image_url": "images/blog-furnace.jpg",
+      "post_category": "Heating Safety"
+    },
+    {
+      "post_title": "What Causes an Outdoor AC Unit to Freeze Into a Solid Block of Ice?",
+      "post_slug": "outdoor-ac-unit-frozen-ice",
+      "post_excerpt": "Restricted airflow from dirty filters or low refrigerant levels will cause your evaporator coils to freeze over.",
+      "post_date": "April 16, 2026",
+      "post_image_url": "images/blog-frozen-ac.jpg",
+      "post_category": "AC Maintenance"
+    },
+    {
+      "post_title": "Signs Your Furnace Igniter Is Failing Before It Stops Working",
+      "post_slug": "furnace-igniter-failing-signs",
+      "post_excerpt": "Clicking sounds without ignition mean your furnace igniter is worn out and needs prompt replacement.",
+      "post_date": "March 22, 2026",
+      "post_image_url": "images/blog-igniter.jpg",
+      "post_category": "Furnace Care"
+    },
+    {
+      "post_title": "Repair vs. Replace: When to Get a New HVAC System in an Emergency",
+      "post_slug": "repair-vs-replace-hvac",
+      "post_excerpt": "Evaluate repair costs, unit age, and efficiency gains when your aging HVAC system breaks down completely.",
+      "post_date": "March 8, 2026",
+      "post_image_url": "images/blog-replace.jpg",
+      "post_category": "HVAC Buying Guide"
+    },
+    {
+      "post_title": "How Smart Thermostats Prevent Emergency HVAC Breakdowns",
+      "post_slug": "smart-thermostats-prevent-breakdowns",
+      "post_excerpt": "Early filter reminders and temperature alerts can save your heating and cooling equipment from sudden failure.",
+      "post_date": "February 18, 2026",
+      "post_image_url": "images/blog-thermostat.jpg",
+      "post_category": "Energy Efficiency"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency HVAC Repair & Installation | ClimateGuard",
+        "page_meta_description": "Emergency HVAC repair for AC failures during summer heat waves and furnace outages during winter freezes. On-site in 45 minutes.",
+        "page_headline": "Emergency HVAC Repair — Cool in Summer, Warm in Winter",
+        "page_subheadline": "24/7 emergency heating and cooling technicians ready to fix AC heat wave failures and furnace winter outages.",
+        "page_cta_text": "Call Emergency HVAC Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency HVAC Services Directory | ClimateGuard",
+        "page_meta_description": "Explore our 24/7 emergency heating, cooling, AC repair, and furnace installation services.",
+        "page_headline": "Our Emergency HVAC Services",
+        "page_subheadline": "Certified heating and cooling specialists equipped to restore your home comfort immediately.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency HVAC Service Details | ClimateGuard",
+        "page_meta_description": "Professional heating and cooling repair, transparent pricing, and rapid on-site resolution for extreme weather HVAC failures.",
+        "page_headline": "Professional HVAC Support When You Need It Most",
+        "page_subheadline": "Expert technicians equipped with advanced diagnostic tools to resolve your heating or cooling crisis.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "HVAC Tips & Emergency Guides | ClimateGuard",
+        "page_meta_description": "Read expert advice on handling AC heat wave breakdowns, furnace winter outages, and preventive maintenance.",
+        "page_headline": "HVAC Safety & Emergency Blog",
+        "page_subheadline": "Practical guides and expert advice to help you maintain your home climate systems.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert HVAC Guide | ClimateGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical heating and cooling failures.",
+        "page_headline": "Expert HVAC Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing a sudden climate control emergency.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 HVAC Dispatch | ClimateGuard",
+        "page_meta_description": "Contact our 24/7 emergency HVAC dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency HVAC Dispatch",
+        "page_subheadline": "Call our hotline now for instant technician routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885554328"
+      }
+    }
+  }
+}

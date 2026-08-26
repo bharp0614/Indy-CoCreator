@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Sitemap | Redeveloper</title>
+  <link rel="stylesheet" href="../../css/global.css">
+</head>
+<body>
+
+  
+  <header>
+    <div class="container header-container">
+      <a href="../../index.html" class="logo">
+        <span data-token="business.name">Redeveloper</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../use-cases.html">Sell a Property</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+13175550199" class="phone-link" data-token="business.phone">+1 (317) 555-0199</a>
+        <a href="../../contact.html" class="btn btn-primary">Submit a Property</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Page Hero -->
+  <section class="hero" style="padding: var(--space-12) 0; background: linear-gradient(135deg, var(--color-primary-700) 0%, var(--color-primary-500) 100%);">
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="../../index.html" style="color: rgba(255, 255, 255, 0.7);">Home</a></li>
+        <li><a href="#" style="color: rgba(255, 255, 255, 0.7);">System</a></li>
+        <li style="color: white;" aria-current="page">HTML Sitemap</li>
+      </ul>
+      <h1 style="color: var(--color-text-inverse); margin-bottom: var(--space-2);">Sitemap Page Directory</h1>
+      <p style="color: rgba(255, 255, 255, 0.85); margin-bottom: 0;">Human-readable directory index of every page template available in the system.</p>
+    </div>
+  </section>
+
+  <section class="section-padding"><div class="container"><h2>Sitemap</h2><p>Full template link tree index.</p></div></section>
+
+  
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 data-token="business.name">Redeveloper</h3>
+        <p>Direct property buyers backed by 30 years of construction-management experience. No high-pressure sales, no fabricated calculators.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../use-cases.html">Sell a Property</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact & Area</h4>
+        <p style="color: rgba(255, 255, 255, 0.7); line-height: 1.8;">
+          <strong>Email:</strong> <a href="mailto:operations@example.com" data-token="business.email">operations@example.com</a><br>
+          <strong>Phone:</strong> <a href="tel:+13175550199" data-token="business.phone">+1 (317) 555-0199</a><br>
+          <strong>Service Area:</strong> <span data-token="business.service_area">Central Indiana</span><br>
+          <strong>Primary Service:</strong> <span data-token="business.primary_service">Residential Redevelopment</span>
+        </p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="footer-year">2026</span> <span data-token="business.fullName">Residential Redevelopment Company</span>. All verified rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Set copyright year automatically
+      const yearEl = document.getElementById('footer-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // Load client data dynamically
+      loadClientData();
+    });
+
+    async function loadClientData() {
+      try {
+        const response = await fetch('../../data/client.json');
+        if (!response.ok) return;
+        const data = await response.json();
+        
+        // Bind simple key-value tokens
+        document.querySelectorAll('[data-token]').forEach(el => {
+          const tokenName = el.getAttribute('data-token');
+          const keys = tokenName.split('.');
+          let val = data;
+          for (const key of keys) {
+            if (val) val = val[key];
+          }
+          if (val) {
+            if (el.tagName === 'A' && tokenName === 'business.phone') {
+              el.href = 'tel:' + val.replace(/\D/g, '');
+            } else if (el.tagName === 'A' && tokenName === 'business.email') {
+              el.href = 'mailto:' + val;
+            }
+            el.textContent = val;
+          }
+        });
+      } catch (e) {
+        console.warn("Could not dynamically load client.json.", e);
+      }
+    }
+  </script>
+</body>
+</html>

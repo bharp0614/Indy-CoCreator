@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency roofing and storm restoration demo site",
+    "industry_classification": "Emergency Roofing & Storm Restoration Services",
+    "skin": "roofing-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "ApexGuard Storm & Roofing",
+    "client_legal_name": "ApexGuard Roofing & Storm Restoration LLC",
+    "client_phone": "(888) 555-ROOF",
+    "client_email": "dispatch@apexguardroofing.com",
+    "client_address": "710 Storm Shield Plaza",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10005",
+    "client_owner_name": "Marcus Sterling",
+    "client_year_founded": "2008",
+    "client_tagline": "24/7 Emergency Roof Tarping & Storm Damage Repair — On-Site in 45 Minutes",
+    "client_website_url": "https://www.apexguardroofing.com",
+    "client_google_profile_url": "https://maps.google.com/?q=ApexGuard+Roofing",
+    "service_area": "Greater Metropolis Area & Surrounding Counties",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY STORM DISPATCH ACTIVE: Rapid response tarping crews deployed for wind & hail damage.",
+    "industry": "Emergency Roofing & Storm Restoration",
+    "service_name": "24/7 Emergency Roofing & Storm Restoration",
+    "service_description": "Immediate professional response for severe wind and hail damage, fallen tree limb removal, active roof leaks, and emergency roof tarping.",
+    "trust_badge_license": "Licensed & Insured Roofing Contractor (#RC-772910)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "Insurance Claim Assistance & 100% Weatherproof Guarantee",
+    "hero_image_url": "images/roofing-emergency-hero.jpg",
+    "hero_image_alt": "Emergency roofing crew securing a storm-damaged roof with heavy-duty tarping",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,290",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "A severe wind storm tore off half our shingles and caused an active attic leak at 2 AM. ApexGuard arrived in 40 minutes and securely tarped the roof before indoor damage spread!",
+    "review_1_author": "Jason Miller",
+    "review_1_date": "1 week ago",
+    "review_2_text": "Fallen tree limb smashed through our roof during a hail storm. Their emergency crew cleared the tree and installed heavy-duty protective tarping instantly.",
+    "review_2_author": "Amanda Vance",
+    "review_2_date": "3 weeks ago",
+    "review_3_text": "They worked directly with our insurance adjuster after a major hailstorm. The permanent roof replacement was smooth and professional.",
+    "review_3_author": "Brian Cooper",
+    "review_3_date": "1 month ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Severe Storm Damage or Roof Leak? Call Our 24/7 Emergency Tarping Crew Now!",
+    "tier_1_name": "Emergency Roof Tarping",
+    "tier_1_price": "$249",
+    "tier_1_description": "Rapid emergency tarping and temporary leak containment following severe wind or hail storms.",
+    "tier_1_features": "Heavy-duty waterproof tarping, secure batten fastening, immediate leak stoppage, 24/7 dispatch",
+    "tier_2_name": "Storm Damage Assessment & Debris Removal",
+    "tier_2_price": "$399",
+    "tier_2_description": "Emergency clearance of fallen tree limbs, shattered glass, and broken structural roof framing.",
+    "tier_2_features": "Chainsaw crew deployment, structural safety inspection, insurance photo documentation",
+    "tier_3_name": "Complete Storm Restoration & Replacement",
+    "tier_3_price": "$799",
+    "tier_3_description": "Full permanent roof rebuild, shingle replacement, and complete insurance claim management.",
+    "tier_3_features": "Direct insurance billing, premium architectural shingles, lifetime manufacturer warranty, priority scheduling",
+    "faq_1_question": "What should I do immediately if my roof is damaged during a storm?",
+    "faq_1_answer": "Move away from leaking areas, place buckets to catch water, protect valuable furniture, and call our 24/7 emergency dispatch for immediate roof tarping.",
+    "faq_2_question": "Why is emergency roof tarping so important after wind or hail damage?",
+    "faq_2_answer": "Tarping prevents rainwater from pouring into your attic, ruining insulation, collapsing drywall, and spawning toxic mold before permanent repairs can be completed.",
+    "faq_3_question": "Do you help with insurance claims for storm damage?",
+    "faq_3_answer": "Yes! We provide comprehensive damage inspections, photo reports, and meet directly with your insurance adjuster to ensure your claim covers all necessary repairs.",
+    "faq_4_question": "How fast can your emergency crew arrive to tarp my roof?",
+    "faq_4_answer": "During severe weather events and storm alerts, our emergency response teams typically arrive on-site within 30 to 45 minutes.",
+    "faq_5_question": "Are your roofing technicians licensed and insured?",
+    "faq_5_answer": "Every technician on our crew is fully licensed, background-checked, insured, and certified in high-wind and storm restoration safety.",
+    "step_1_title": "Call 24/7 Storm Dispatch",
+    "step_1_description": "Report your roof leak, missing shingles, or fallen tree damage to our live emergency dispatch team.",
+    "step_2_title": "Rapid Tarping & Securing",
+    "step_2_description": "Our emergency crew arrives promptly to install heavy-duty waterproof tarping and clear hazardous debris.",
+    "step_3_title": "Permanent Restoration",
+    "step_3_description": "We file your insurance paperwork, build a complete repair plan, and execute professional roof restoration.",
+    "before_image_url": "images/roofing-before.jpg",
+    "before_image_alt": "Storm-damaged roof with missing shingles and active leak prior to tarping",
+    "after_image_url": "images/roofing-after.jpg",
+    "after_image_alt": "Fully restored, weatherproof architectural shingle roof",
+    "project_caption": "Emergency midnight wind damage tarping and tree limb removal in Metropolis.",
+    "guarantee_headline": "The ApexGuard Weatherproof & Secure Tarping Guarantee",
+    "guarantee_description": "We guarantee our emergency tarping will withstand severe weather. If your temporary tarp fails or leaks before permanent repairs are made, we return to re-secure it free of charge.",
+    "guarantee_terms": "Valid for all emergency tarping and temporary storm mitigation services performed by ApexGuard technicians.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How Our Emergency Roof Tarping & Storm Teams Operate",
+    "video_caption": "Watch our rapid-response crews secure storm-damaged roofs in heavy weather.",
+    "social_facebook_url": "https://facebook.com/apexguardroofing",
+    "social_instagram_url": "https://instagram.com/apexguardroofing",
+    "social_nextdoor_url": "https://nextdoor.com/pages/apexguard-roofing",
+    "social_yelp_url": "https://yelp.com/biz/apexguard-roofing-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Emergency Roof Tarping",
+      "service_slug": "emergency-roof-tarping",
+      "service_description": "Heavy-duty waterproof tarping and batten securing to stop active roof leaks immediately.",
+      "service_icon_url": "icons/tarping.svg"
+    },
+    {
+      "service_name": "Severe Wind Damage Repair",
+      "service_slug": "wind-damage-repair",
+      "service_description": "Replacement of torn-off shingles, exposed decking, and compromised ridge caps.",
+      "service_icon_url": "icons/wind-damage.svg"
+    },
+    {
+      "service_name": "Hail Impact Restoration",
+      "service_slug": "hail-impact-restoration",
+      "service_description": "Comprehensive inspection and repair for bruised shingles, dented flashing, and cracked vents.",
+      "service_icon_url": "icons/hail-damage.svg"
+    },
+    {
+      "service_name": "Fallen Tree Limb Removal",
+      "service_slug": "fallen-tree-removal",
+      "service_description": "Emergency chainsaw clearing of heavy branches and structural framing repairs.",
+      "service_icon_url": "icons/tree-removal.svg"
+    },
+    {
+      "service_name": "Active Attic Leak Mitigation",
+      "service_slug": "active-attic-leak-mitigation",
+      "service_description": "Interior water diversion, wet insulation removal, and structural drying after roof breaches.",
+      "service_icon_url": "icons/attic-leak.svg"
+    },
+    {
+      "service_name": "Full Storm Rebuild & Replacement",
+      "service_slug": "storm-rebuild",
+      "service_description": "Complete architectural shingle or metal roof replacement with full insurance claim coordination.",
+      "service_icon_url": "icons/roof-rebuild.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "What to Do Immediately When Severe Wind Tears Off Your Shingles",
+      "post_slug": "wind-tears-off-shingles",
+      "post_excerpt": "Protect your home interior, secure loose debris, and call for emergency roof tarping right away.",
+      "post_date": "May 18, 2026",
+      "post_image_url": "images/blog-wind-roof.jpg",
+      "post_category": "Storm Safety"
+    },
+    {
+      "post_title": "How to Spot Hidden Hail Damage on Your Roof After a Severe Storm",
+      "post_slug": "spot-hidden-hail-damage",
+      "post_excerpt": "Granule loss, bruised shingles, and dented gutters are clear indicators of structural hail impact.",
+      "post_date": "May 04, 2026",
+      "post_image_url": "images/blog-hail.jpg",
+      "post_category": "Hail Damage"
+    },
+    {
+      "post_title": "Why Emergency Roof Tarping Saves Thousands in Water Damage Costs",
+      "post_slug": "emergency-roof-tarping-saves-money",
+      "post_excerpt": "Prevent attic insulation saturation and drywall collapse with professional temporary tarping.",
+      "post_date": "April 22, 2026",
+      "post_image_url": "images/blog-tarping.jpg",
+      "post_category": "Roof Protection"
+    },
+    {
+      "post_title": "Dealing With Fallen Tree Limbs on Your Roof During Heavy Storms",
+      "post_slug": "fallen-tree-limbs-on-roof",
+      "post_excerpt": "Safety precautions, structural hazard assessments, and professional emergency clearance steps.",
+      "post_date": "April 08, 2026",
+      "post_image_url": "images/blog-tree.jpg",
+      "post_category": "Tree Damage"
+    },
+    {
+      "post_title": "Navigating Home Insurance Claims for Storm-Damaged Roofs",
+      "post_slug": "insurance-claims-storm-damaged-roofs",
+      "post_excerpt": "How to document storm impact and work directly with insurance adjusters for full coverage.",
+      "post_date": "March 20, 2026",
+      "post_image_url": "images/blog-insurance-roof.jpg",
+      "post_category": "Insurance Guides"
+    },
+    {
+      "post_title": "Architectural Shingles vs. Metal Roofing: Which Survives Storms Better?",
+      "post_slug": "architectural-shingles-vs-metal-roofing",
+      "post_excerpt": "Compare wind ratings, impact resistance, and long-term durability for storm-prone regions.",
+      "post_date": "February 26, 2026",
+      "post_image_url": "images/blog-materials.jpg",
+      "post_category": "Roofing Materials"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Roof Tarping & Storm Restoration | ApexGuard",
+        "page_meta_description": "Emergency roofing for severe wind/hail damage, fallen tree limbs, active leaks, and emergency roof tarping. On-site in 45 minutes.",
+        "page_headline": "Emergency Roof Tarping & Storm Restoration — On-Site in 45 Minutes",
+        "page_subheadline": "24/7 storm restoration crews ready to tarp damaged roofs, clear fallen tree limbs, and stop active leaks.",
+        "page_cta_text": "Call Emergency Tarping Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency Roofing Services Directory | ApexGuard",
+        "page_meta_description": "Explore our 24/7 emergency roof tarping, wind damage repair, hail restoration, and tree removal services.",
+        "page_headline": "Our Emergency Roofing & Storm Services",
+        "page_subheadline": "Licensed storm restoration technicians equipped to protect and rebuild your roof immediately.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Roofing Service Details | ApexGuard",
+        "page_meta_description": "Professional storm repair, transparent pricing, and rapid on-site resolution for roof leaks and storm damage.",
+        "page_headline": "Professional Roofing Support When You Need It Most",
+        "page_subheadline": "Expert technicians equipped to safeguard your home from severe weather and structural damage.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Roofing Tips & Storm Guides | ApexGuard",
+        "page_meta_description": "Read expert advice on handling wind damage, hail inspections, emergency tarping, and insurance claims.",
+        "page_headline": "Roofing Safety & Storm Blog",
+        "page_subheadline": "Practical guides and expert advice to help you protect your roof from severe weather.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Roofing Guide | ApexGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical roof leaks and storm damage.",
+        "page_headline": "Expert Roofing Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing severe storm breaches or fallen tree damage.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Storm Dispatch | ApexGuard",
+        "page_meta_description": "Contact our 24/7 emergency roofing dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Storm Dispatch",
+        "page_subheadline": "Call our hotline now for instant tarping crew routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885557663"
+      }
+    }
+  }
+}

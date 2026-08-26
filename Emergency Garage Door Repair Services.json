@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency garage door repair demo site",
+    "industry_classification": "Emergency Garage Door Repair Services",
+    "skin": "garage-door-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "LiftGuard Emergency Garage Doors",
+    "client_legal_name": "LiftGuard Garage Door Repair & Springs LLC",
+    "client_phone": "(888) 555-DOOR",
+    "client_email": "dispatch@liftguardgaragedoors.com",
+    "client_address": "940 Torsion Spring Way",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10007",
+    "client_owner_name": "Nathaniel Hayes",
+    "client_year_founded": "2011",
+    "client_tagline": "24/7 Emergency Garage Door Repair — Trapped Cars Free in 45 Minutes",
+    "client_website_url": "https://www.liftguardgaragedoors.com",
+    "client_google_profile_url": "https://maps.google.com/?q=LiftGuard+Garage+Doors",
+    "service_area": "Greater Metropolis Area & Surrounding Suburbs",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY GARAGE DISPATCH ACTIVE: Technicians on standby for broken springs and trapped cars.",
+    "industry": "Emergency Garage Door Repair",
+    "service_name": "24/7 Emergency Garage Door & Spring Repair",
+    "service_description": "Immediate professional response for broken torsion springs causing vehicles to be physically trapped inside garages, jammed tracks, and snapped cables.",
+    "trust_badge_license": "Licensed & Insured Contractor (#GD-338291)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "Same-Day Spring Replacement & 100% Balance Guarantee",
+    "hero_image_url": "images/garage-emergency-hero.jpg",
+    "hero_image_alt": "Emergency technician replacing a broken torsion spring on a residential garage door",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,150",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "Heard a loud bang in the garage at 7 AM and our heavy double door wouldn't budge with the car stuck inside. LiftGuard arrived in 30 minutes and replaced the snapped torsion spring instantly!",
+    "review_1_author": "Derek Vance",
+    "review_1_date": "1 week ago",
+    "review_2_text": "Cables snapped off the drum right as I was leaving for an important meeting. Their emergency technician was fast, polite, and priced fairly.",
+    "review_2_author": "Jessica Moore",
+    "review_2_date": "3 weeks ago",
+    "review_3_text": "Professional service, upfront flat-rate pricing, and high-durability springs installed on the spot.",
+    "review_3_author": "Robert King",
+    "review_3_date": "1 month ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Car Trapped in Garage by a Broken Spring? Call Our 24/7 Dispatch Now!",
+    "tier_1_name": "Emergency Torsion Spring Replacement",
+    "tier_1_price": "$179",
+    "tier_1_description": "Rapid on-site replacement for snapped high-tension torsion springs and balance calibration.",
+    "tier_1_features": "High-cycle galvanized springs, safety inspection, balance tune-up, 24/7 priority dispatch",
+    "tier_2_name": "Cable & Track Emergency Rescue",
+    "tier_2_price": "$219",
+    "tier_2_description": "Urgent realignment of off-track doors, snapped cable replacement, and roller fixes.",
+    "tier_2_features": "Immediate dispatch, diagnostic fee waived with repair, heavy-duty aircraft cables",
+    "tier_3_name": "Complete Motor & Door Reconstruction",
+    "tier_3_price": "$389",
+    "tier_3_description": "Emergency garage door opener repair, gear assembly replacement, and severe impact restoration.",
+    "tier_3_features": "Multi-tech crew deployment, same-day parts replacement, lifetime spring warranty options",
+    "faq_1_question": "What should I do if my garage door spring breaks while my car is inside?",
+    "faq_1_answer": "Do not attempt to force the door open manually or run the automatic opener, as this can destroy the motor and cables. Call our 24/7 emergency dispatch to safely release and lift the door.",
+    "faq_2_question": "Why do torsion springs break with a loud bang?",
+    "faq_2_answer": "Torsion springs operate under extreme tension to counterbalance hundreds of pounds of door weight. When metal fatigue causes them to snap, the stored tension releases rapidly with a loud pop.",
+    "faq_3_question": "Do you charge extra for emergency, weekend, or holiday garage repairs?",
+    "faq_3_answer": "We offer transparent, flat-rate emergency pricing with no hidden surprise fees, no matter what time of day or night you call.",
+    "faq_4_question": "How fast can your technician arrive to free my car?",
+    "faq_4_answer": "Our average emergency on-site arrival time across the service area is between 25 and 40 minutes.",
+    "faq_5_question": "Are your garage door technicians licensed and insured?",
+    "faq_5_answer": "Every technician on our team is fully licensed, insured, background-checked, and certified in high-tension spring safety.",
+    "step_1_title": "Call 24/7 Door Dispatch",
+    "step_1_description": "Report your broken spring, snapped cable, or trapped vehicle to our live dispatch team.",
+    "step_2_title": "Rapid Mobile Arrival",
+    "step_2_description": "Our certified technician arrives promptly with a fully stocked inventory of replacement springs and cables.",
+    "step_3_title": "Vehicle Freed & Door Restored",
+    "step_3_description": "We replace the broken hardware, balance the door mechanism, and verify smooth, safe operation.",
+    "before_image_url": "images/garage-before.jpg",
+    "before_image_alt": "Snapped torsion spring and jammed garage door trapping car prior to repair",
+    "after_image_url": "images/garage-after.jpg",
+    "after_image_alt": "Fully repaired, perfectly balanced garage door with vehicle successfully freed",
+    "project_caption": "Emergency midnight double torsion spring replacement in Metropolis.",
+    "guarantee_headline": "The LiftGuard 100% Balance & Spring Guarantee",
+    "guarantee_description": "We guarantee our spring replacements. If a newly installed torsion spring breaks or loses tension within 3 years, we replace it completely free of charge.",
+    "guarantee_terms": "Valid for all high-cycle torsion spring installations completed by LiftGuard certified technicians.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How We Replace Broken Torsion Springs and Free Trapped Cars",
+    "video_caption": "Watch our professional technicians safely tension and repair heavy garage doors.",
+    "social_facebook_url": "https://facebook.com/liftguardgaragedoors",
+    "social_instagram_url": "https://instagram.com/liftguardgaragedoors",
+    "social_nextdoor_url": "https://nextdoor.com/pages/liftguard-garage-doors",
+    "social_yelp_url": "https://yelp.com/biz/liftguard-garage-doors-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Emergency Torsion Spring Replacement",
+      "service_slug": "torsion-spring-replacement",
+      "service_description": "Rapid on-site replacement for snapped high-tension torsion springs trapping vehicles inside garages.",
+      "service_icon_url": "icons/spring.svg"
+    },
+    {
+      "service_name": "Snapped Cable Repair",
+      "service_slug": "snapped-cable-repair",
+      "service_description": "Emergency replacement of frayed or broken lift cables to restore safe door balance.",
+      "service_icon_url": "icons/cable.svg"
+    },
+    {
+      "service_name": "Off-Track Door Realignment",
+      "service_slug": "off-track-door-realignment",
+      "service_description": "Immediate realignment and repair of jammed garage doors that have slipped off their vertical tracks.",
+      "service_icon_url": "icons/track.svg"
+    },
+    {
+      "service_name": "Garage Door Opener Emergency Repair",
+      "service_slug": "opener-repair",
+      "service_description": "Troubleshooting and repair for automatic garage door motors, logic boards, and gear assemblies.",
+      "service_icon_url": "icons/opener.svg"
+    },
+    {
+      "service_name": "Roller & Hinge Emergency Service",
+      "service_slug": "roller-hinge-service",
+      "service_description": "Replacement of shattered nylon rollers, bent hinges, and squeaking or sticking hardware.",
+      "service_icon_url": "icons/roller.svg"
+    },
+    {
+      "service_name": "Emergency Impact & Section Repair",
+      "service_slug": "impact-section-repair",
+      "service_description": "Emergency stabilization and panel replacement for vehicles accidentally backing into garage doors.",
+      "service_icon_url": "icons/panel-repair.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "What to Do When Your Garage Door Spring Snaps and Traps Your Car",
+      "post_slug": "garage-door-spring-traps-car",
+      "post_excerpt": "Avoid motor damage and manual lifting hazards when your torsion spring breaks unexpectedly.",
+      "post_date": "May 20, 2026",
+      "post_image_url": "images/blog-spring.jpg",
+      "post_category": "Spring Safety"
+    },
+    {
+      "post_title": "Why You Should Never Attempt DIY Torsion Spring Replacement",
+      "post_slug": "never-attempt-diy-torsion-spring",
+      "post_excerpt": "The extreme tension in garage door springs causes severe injuries if handled without professional tools.",
+      "post_date": "May 06, 2026",
+      "post_image_url": "images/blog-diy-danger.jpg",
+      "post_category": "Safety Warnings"
+    },
+    {
+      "post_title": "Signs Your Garage Door Cables Are About to Snap",
+      "post_slug": "signs-garage-door-cables-snap",
+      "post_excerpt": "Fraying wires, uneven lifting, and loose drums indicate your lift cables need immediate professional replacement.",
+      "post_date": "April 25, 2026",
+      "post_image_url": "images/blog-cables.jpg",
+      "post_category": "Cable Maintenance"
+    },
+    {
+      "post_title": "Why Is My Garage Door Off Its Tracks? Causes and Emergency Fixes",
+      "post_slug": "garage-door-off-tracks-causes",
+      "post_excerpt": "Impacts, loose track brackets, and broken rollers can cause your heavy door to jam dangerously.",
+      "post_date": "April 11, 2026",
+      "post_image_url": "images/blog-tracks.jpg",
+      "post_category": "Track Alignment"
+    },
+    {
+      "post_title": "How Automatic Garage Door Safety Sensors Prevent Accidents",
+      "post_slug": "automatic-garage-door-safety-sensors",
+      "post_excerpt": "Troubleshooting photo-eye sensor alignment and wiring when your door refuses to close.",
+      "post_date": "March 24, 2026",
+      "post_image_url": "images/blog-sensors.jpg",
+      "post_category": "Opener Maintenance"
+    },
+    {
+      "post_title": "Comparing Torsion Springs vs. Extension Springs: Which Is Safer?",
+      "post_slug": "torsion-vs-extension-springs",
+      "post_excerpt": "Understand lifespan, tension distribution, and safety differences between residential garage door spring types.",
+      "post_date": "March 02, 2026",
+      "post_image_url": "images/blog-spring-types.jpg",
+      "post_category": "Hardware Guides"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Garage Door & Spring Repair | LiftGuard",
+        "page_meta_description": "Emergency garage door repair for broken torsion springs trapping cars inside. On-site in 45 minutes.",
+        "page_headline": "Emergency Garage Door Repair — Trapped Cars Free in 45 Minutes",
+        "page_subheadline": "24/7 technicians ready to replace broken torsion springs, fix snapped cables, and free your trapped vehicles.",
+        "page_cta_text": "Call Emergency Garage Repair Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency Garage Door Services Directory | LiftGuard",
+        "page_meta_description": "Explore our 24/7 emergency torsion spring replacement, cable repair, and door realignment services.",
+        "page_headline": "Our Emergency Garage Door Services",
+        "page_subheadline": "Licensed garage door technicians equipped to free your car and restore smooth door operation.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Garage Service Details | LiftGuard",
+        "page_meta_description": "Professional garage door repair, transparent pricing, and rapid on-site resolution for broken springs and jammed doors.",
+        "page_headline": "Professional Garage Door Support When You Need It Most",
+        "page_subheadline": "Expert technicians equipped with heavy-duty replacement springs to get you back on the road.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Garage Door Tips & Safety Guides | LiftGuard",
+        "page_meta_description": "Read expert advice on handling broken torsion springs, snapped cables, and off-track garage doors.",
+        "page_headline": "Garage Door Safety & Emergency Blog",
+        "page_subheadline": "Practical guides and expert advice to help you manage unexpected garage door failures.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Garage Door Guide | LiftGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical garage door and spring emergencies.",
+        "page_headline": "Expert Garage Door Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing a broken spring and a trapped vehicle.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Garage Dispatch | LiftGuard",
+        "page_meta_description": "Contact our 24/7 emergency garage door dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Garage Door Dispatch",
+        "page_subheadline": "Call our hotline now for instant spring replacement routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885553667"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "business": {
+    "name": "Redeveloper",
+    "fullName": "Residential Redevelopment Company",
+    "phone": "+1 (317) 555-0199",
+    "email": "operations@example.com",
+    "service_area": "Central Indiana",
+    "primary_service": "Residential Redevelopment & Direct Acquisitions"
+  },
+  "trust_badges": [
+    "30 Years Construction Management",
+    "Locally Operated",
+    "Dedicated Renovation Crews"
+  ],
+  "projects": [
+    {
+      "title": "Maple Street Structural Revival",
+      "category": "Single Family",
+      "location": "Broad Ripple",
+      "scope": "Full foundation stabilization, complete kitchen redesign, and HVAC replacement.",
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3ECompleted Exterior Image%3C/text%3E%3C/svg%3E",
+      "status": "Completed"
+    },
+    {
+      "title": "Oak Avenue Cosmetic Update",
+      "category": "Multi-Unit",
+      "location": "Meridian-Kessler",
+      "scope": "Updating both units with new flooring, cabinetry, and modern plumbing fixtures.",
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EIn-Progress Exterior Image%3C/text%3E%3C/svg%3E",
+      "status": "In Progress"
+    },
+    {
+      "title": "Pine Lane Complete Rehab",
+      "category": "Single Family",
+      "location": "Fountain Square",
+      "scope": "Property acquired. Currently in architectural planning phase for a complete gut rehabilitation.",
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EBefore Exterior Image%3C/text%3E%3C/svg%3E",
+      "status": "Planned"
+    }
+  ],
+  "use_cases": [
+    {
+      "title": "Inherited Properties",
+      "category": "Estate Management",
+      "location": "Central Indiana",
+      "scope": "Managing an estate or a house left behind by a loved one.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "title": "Major Repairs Needed",
+      "category": "Structural Rehab",
+      "location": "Central Indiana",
+      "scope": "Homes requiring structural work, new roofs, or complete cosmetic updates.",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "title": "Problem Rentals",
+      "category": "Property Transition",
+      "location": "Central Indiana",
+      "scope": "Landlord-owned properties with deferred maintenance or past tenant damage.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}

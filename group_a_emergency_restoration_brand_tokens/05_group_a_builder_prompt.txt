@@ -1,0 +1,63 @@
+ROLE
+Act as a senior local-service website builder and conversion strategist.
+
+TASK
+Build a Group A emergency-service landing page for a restoration company serving Indianapolis and Central Indiana.
+
+GROUP A FUNNEL LOGIC
+This is a 24/7 emergency service funnel. The visitor has a problem happening now and needs immediate help. The page must push click-to-call while quickly building trust.
+
+BUSINESS CATEGORY
+Emergency restoration services.
+
+SERVICES
+Water damage restoration, fire damage restoration, smoke cleanup, soot cleanup, ash cleanup, flood cleanup, water extraction, structural drying, and insurance documentation support.
+
+PRIMARY LOCATION
+Indianapolis, Indiana.
+
+SERVICE AREA
+Indianapolis, Carmel, Fishers, Noblesville, Westfield, Zionsville, Brownsburg, Avon, Plainfield, Greenwood, Whiteland, Franklin, Beech Grove, Lawrence, Speedway, McCordsville, Fortville, Greenfield, New Palestine, Mooresville, Danville, Camby, and nearby Central Indiana communities.
+
+PHONE
+317-627-5668
+
+PRIMARY CTA
+Call Now for Emergency Restoration
+
+SECONDARY CTA
+Request a Written Estimate
+
+HERO COPY
+Eyebrow: 24/7 Emergency Restoration Services
+H1: Water, Fire, Smoke, Soot, and Ash Restoration in Indianapolis
+Subheadline: The first 24 to 48 hours matter. Call now for emergency cleanup, water extraction, drying, smoke and soot removal, written estimates, and insurance documentation support.
+
+TRUST BAR
+24/7 Response | Water Extraction | Fire Cleanup | Smoke & Soot Removal | Written Estimates | Insurance Support
+
+DESIGN STYLE
+Urgent but calm. Professional, high contrast, mobile-first, fast readability, strong phone CTA. Use deep charcoal/navy, emergency red/orange CTA, white and soft gray surfaces, and small service accent colors for water/fire/smoke/ash/insurance.
+
+CSS TOKENS
+Use the tokens from 03_group_a_css_tokens.css.
+
+PAGE STRUCTURE
+1. Sticky header with phone CTA
+2. Hero with emergency CTA
+3. Trust bar
+4. First 24–48 hours urgency section
+5. Service cards
+6. Insurance documentation support
+7. Contractor checklist
+8. Service area
+9. Final CTA
+10. Sticky mobile call bar
+
+COPY SAFETY
+Do not claim licensed, insured, bonded, certified, IICRC-certified, RIA-certified, 5-star rated, free estimates, or works with all insurance companies unless verified.
+Use safe phrasing:
+- Ask about licensing, insurance, certifications, and written estimates.
+- Written estimates available.
+- Insurance documentation support available.
+- Serving Indianapolis and Central Indiana.

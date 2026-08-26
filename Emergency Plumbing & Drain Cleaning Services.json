@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency plumbing service demo site",
+    "industry_classification": "Emergency Plumbing & Drain Cleaning Services",
+    "skin": "plumbing-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "HydroGuard Emergency Plumbing",
+    "client_legal_name": "HydroGuard Plumbing & Drain Solutions LLC",
+    "client_phone": "(888) 555-FLOW",
+    "client_email": "dispatch@hydroguardplumbing.com",
+    "client_address": "452 Flow State Way",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10002",
+    "client_owner_name": "Thomas Reynolds",
+    "client_year_founded": "2010",
+    "client_tagline": "24/7 Emergency Plumbing & Drain Cleaning — On-Site in 45 Minutes",
+    "client_website_url": "https://www.hydroguardplumbing.com",
+    "client_google_profile_url": "https://maps.google.com/?q=HydroGuard+Plumbing",
+    "service_area": "Greater Metropolis Area & Surrounding Suburbs",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY PLUMBING DISPATCH ACTIVE: Live plumbers on standby for burst pipes & backups.",
+    "industry": "Emergency Plumbing & Drain Services",
+    "service_name": "24/7 Emergency Plumbing & Drain Cleaning",
+    "service_description": "Immediate professional response for burst pipes, overflowing toilets, water heater failures, and severe sewer backups.",
+    "trust_badge_license": "Licensed Master Plumber (#MP-882341)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "No-Mess Clean Up & 100% Workmanship Guarantee",
+    "hero_image_url": "images/plumbing-emergency-hero.jpg",
+    "hero_image_alt": "Emergency plumber repairing a major pipe leak",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,180",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "Water heater tank ruptured at 2 AM flooding the garage. HydroGuard answered immediately and had a brand new unit installed by morning!",
+    "review_1_author": "Mark Henderson",
+    "review_1_date": "1 week ago",
+    "review_2_text": "Main sewer line backed up right before a family gathering. Their hydro-jetting team cleared the blockage completely in under an hour.",
+    "review_2_author": "Rachel Green",
+    "review_2_date": "3 weeks ago",
+    "review_3_text": "Burst pipe under the kitchen sink gushing water everywhere. The technician arrived in 30 minutes flat and shut off the main line safely.",
+    "review_3_author": "Kevin Vance",
+    "review_3_date": "1 month ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Flooding or Pipe Burst? Call Our 24/7 Emergency Plumbing Dispatch Now!",
+    "tier_1_name": "Standard Drain Clearing",
+    "tier_1_price": "$129",
+    "tier_1_description": "Fast unclogging for single drains, sinks, showers, and overflowing toilets.",
+    "tier_1_features": "Snake auger service, camera inspection of main trap, 90-day warranty",
+    "tier_2_name": "Emergency Leak & Repair",
+    "tier_2_price": "$219",
+    "tier_2_description": "Urgent dispatch for pipe leaks, garbage disposal breakdowns, and valve failures.",
+    "tier_2_features": "Priority dispatch, diagnostic fee waived with repair, high-grade replacement parts",
+    "tier_3_name": "Critical Flood & Mainline Rescue",
+    "tier_3_price": "$389",
+    "tier_3_description": "Severe sewer backup remediation, high-pressure hydro-jetting, and burst pipe extraction.",
+    "tier_3_features": "Multi-tech crew, heavy-duty hydro-jetting, emergency water extraction pump-out",
+    "faq_1_question": "What should I do immediately if a pipe bursts in my home?",
+    "faq_1_answer": "Locate and shut off your main water supply valve immediately to stop the flooding, then call our 24/7 emergency dispatch hotline.",
+    "faq_2_question": "Do you charge extra for midnight, weekend, or holiday plumbing calls?",
+    "faq_2_answer": "We maintain transparent, flat-rate emergency pricing with no hidden surprise fees, regardless of whether you call at 3 AM or on Christmas Day.",
+    "faq_3_question": "How do you clear tough sewer line clogs?",
+    "faq_3_answer": "We utilize advanced video camera inspections to locate the exact blockage and employ high-pressure hydro-jetting to clear roots, grease, and debris completely.",
+    "faq_4_question": "Can you help with insurance claims for water damage caused by plumbing leaks?",
+    "faq_4_answer": "Yes, we provide detailed technical documentation, photo logs, and itemized scopes of work directly to your insurance adjuster.",
+    "faq_5_question": "Are your plumbers fully licensed and certified?",
+    "faq_5_answer": "Every technician on our team is a state-certified licensed plumber, fully background-checked, insured, and highly experienced.",
+    "step_1_title": "Call Emergency Dispatch",
+    "step_1_description": "Speak with our live plumbing coordinator to detail your leak, flood, or clog and secure priority dispatch.",
+    "step_2_title": "Rapid On-Site Arrival",
+    "step_2_description": "Our fully stocked mobile plumbing van arrives promptly with all necessary tools, cameras, and replacement parts.",
+    "step_3_title": "Permanent Resolution",
+    "step_3_description": "We isolate the problem, execute high-standard repairs, test water pressure, and clean up the work area completely.",
+    "before_image_url": "images/plumbing-before.jpg",
+    "before_image_alt": "Flooded basement and ruptured pipe prior to plumbing repair",
+    "after_image_url": "images/plumbing-after.jpg",
+    "after_image_alt": "Dry, fully repaired pipe network and restored water service",
+    "project_caption": "Emergency main sewer line hydro-jetting and root removal in Metropolis.",
+    "guarantee_headline": "The HydroGuard Dry-Home & Rapid Response Guarantee",
+    "guarantee_description": "We stand by our craftsmanship. If our repair fails or leaks recur within 1 year, we return and fix it completely free of charge.",
+    "guarantee_terms": "Applies to all permanent pipe repairs and replacements performed by HydroGuard certified master plumbers.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "Watch How We Handle Emergency Burst Pipes & Sewer Backups",
+    "video_caption": "See our advanced hydro-jetting and pipe repair techniques in action.",
+    "social_facebook_url": "https://facebook.com/hydroguardplumbing",
+    "social_instagram_url": "https://instagram.com/hydroguardplumbing",
+    "social_nextdoor_url": "https://nextdoor.com/pages/hydroguard-plumbing",
+    "social_yelp_url": "https://yelp.com/biz/hydroguard-plumbing-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Burst Pipe Repair",
+      "service_slug": "burst-pipe-repair",
+      "service_description": "Emergency containment and permanent replacement of frozen, rusted, or ruptured water pipes.",
+      "service_icon_url": "icons/pipe-burst.svg"
+    },
+    {
+      "service_name": "Overflowing Toilet & Drain Unclogging",
+      "service_slug": "toilet-drain-unclogging",
+      "service_description": "Rapid augering and hydro-jetting to clear severe blockages in toilets, sinks, and tubs.",
+      "service_icon_url": "icons/toilet.svg"
+    },
+    {
+      "service_name": "Water Heater Leak & Replacement",
+      "service_slug": "water-heater-repair",
+      "service_description": "Urgent tank and tankless water heater repair, leak stoppage, and emergency tank swaps.",
+      "service_icon_url": "icons/water-heater.svg"
+    },
+    {
+      "service_name": "Sewer Line Backup & Hydro-Jetting",
+      "service_slug": "sewer-line-backup",
+      "service_description": "High-pressure clearing of main sewer line backups, tree root intrusion, and collapsed lines.",
+      "service_icon_url": "icons/sewer.svg"
+    },
+    {
+      "service_name": "Emergency Leak Detection",
+      "service_slug": "emergency-leak-detection",
+      "service_description": "Electronic acoustic and thermal imaging to locate hidden slab leaks and behind-wall pipe failures.",
+      "service_icon_url": "icons/leak-detection.svg"
+    },
+    {
+      "service_name": "Sump Pump Failure & Flood Extraction",
+      "service_slug": "sump-pump-failure",
+      "service_description": "Emergency backup pump installation and basement flood extraction to protect your foundation.",
+      "service_icon_url": "icons/sump-pump.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "How to Quickly Shut Off Your Main Water Valve During a Pipe Burst",
+      "post_slug": "shut-off-main-water-valve",
+      "post_excerpt": "Prevent catastrophic home indoor flooding by locating and turning off your main supply valve instantly.",
+      "post_date": "May 14, 2026",
+      "post_image_url": "images/blog-valve.jpg",
+      "post_category": "Plumbing Safety"
+    },
+    {
+      "post_title": "Warning Signs Your Water Heater Is About to Fail Completely",
+      "post_slug": "water-heater-failure-signs",
+      "post_excerpt": "Strange rumbling noises, rusty water, and fluctuating temperatures mean your tank needs immediate attention.",
+      "post_date": "April 30, 2026",
+      "post_image_url": "images/blog-heater.jpg",
+      "post_category": "Water Heaters"
+    },
+    {
+      "post_title": "Why Chemical Drain Cleaners Can Ruin Your Home's Pipes",
+      "post_slug": "chemical-drain-cleaners-damage",
+      "post_excerpt": "Harsh store-bought liquids corrode metal pipes and create worse blockages. Here is what to use instead.",
+      "post_date": "April 18, 2026",
+      "post_image_url": "images/blog-drains.jpg",
+      "post_category": "Drain Maintenance"
+    },
+    {
+      "post_title": "Understanding Main Sewer Line Backups and Tree Root Intrusion",
+      "post_slug": "sewer-line-tree-roots",
+      "post_excerpt": "How hydro-jetting and camera inspections clear deep sewer clogs without destroying your landscaping.",
+      "post_date": "March 25, 2026",
+      "post_image_url": "images/blog-sewer.jpg",
+      "post_category": "Sewer Lines"
+    },
+    {
+      "post_title": "What to Do When Your Basement Floods During Heavy Rainstorms",
+      "post_slug": "basement-flooding-storm",
+      "post_excerpt": "Steps to safely handle sump pump failures and prevent mold growth after indoor flooding.",
+      "post_date": "March 10, 2026",
+      "post_image_url": "images/blog-flood.jpg",
+      "post_category": "Flood Restoration"
+    },
+    {
+      "post_title": "Preventing Frozen Pipes During Sudden Winter Freeze Warnings",
+      "post_slug": "preventing-frozen-pipes",
+      "post_excerpt": "Insulating exposed pipes and dripping faucets can save you thousands in winter plumbing disaster costs.",
+      "post_date": "February 15, 2026",
+      "post_image_url": "images/blog-winter.jpg",
+      "post_category": "Winterization"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Plumbing & Drain Cleaning | HydroGuard",
+        "page_meta_description": "Emergency plumbing dispatch for burst pipes, overflowing toilets, water heater leaks, and sewer backups. On-site in 45 minutes.",
+        "page_headline": "Emergency Plumbing & Drain Repair — On-Site in 45 Minutes",
+        "page_subheadline": "24/7 master plumbers ready to fix burst pipes, overflowing toilets, water heater leaks, and sewer backups immediately.",
+        "page_cta_text": "Call Emergency Plumber Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency Plumbing Services Directory | HydroGuard",
+        "page_meta_description": "Explore our 24/7 emergency plumbing services including pipe repair, drain cleaning, water heaters, and sewer backup extraction.",
+        "page_headline": "Our Emergency Plumbing & Drain Services",
+        "page_subheadline": "Licensed master plumbers equipped with state-of-the-art diagnostic and repair technology.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Plumbing Service Details | HydroGuard",
+        "page_meta_description": "Professional plumbing repair, upfront pricing, and rapid on-site resolution for urgent leaks and clogs.",
+        "page_headline": "Professional Plumbing Support When You Need It Most",
+        "page_subheadline": "Expert master plumbers equipped to resolve your plumbing crisis quickly and cleanly.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Plumbing Tips & Emergency Guides | HydroGuard",
+        "page_meta_description": "Read expert advice on handling pipe bursts, water heater failures, drain clogs, and home flood prevention.",
+        "page_headline": "Plumbing Safety & Emergency Blog",
+        "page_subheadline": "Practical guides and expert advice to help you protect your home's plumbing system.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Plumbing Guide | HydroGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical home plumbing crises.",
+        "page_headline": "Expert Plumbing Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing a sudden plumbing disaster.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Plumbing Dispatch | HydroGuard",
+        "page_meta_description": "Contact our 24/7 emergency plumbing dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Plumbing Dispatch",
+        "page_subheadline": "Call our hotline now for instant plumber routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885553569"
+      }
+    }
+  }
+}

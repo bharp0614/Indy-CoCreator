@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency water damage restoration demo site",
+    "industry_classification": "Emergency Water Damage & Restoration Services",
+    "skin": "water-damage-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "DryGuard Emergency Restoration",
+    "client_legal_name": "DryGuard Water Mitigation & Restoration LLC",
+    "client_phone": "(888) 555-DRY1",
+    "client_email": "dispatch@dryguardrestoration.com",
+    "client_address": "500 Flood Response Blvd",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10004",
+    "client_owner_name": "Clara Montgomery",
+    "client_year_founded": "2011",
+    "client_tagline": "24/7 Emergency Water Extraction & Mold Mitigation — On-Site in 30 Minutes",
+    "client_website_url": "https://www.dryguardrestoration.com",
+    "client_google_profile_url": "https://maps.google.com/?q=DryGuard+Restoration",
+    "service_area": "Greater Metropolis Area & Surrounding Counties",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY FLOOD DISPATCH ACTIVE: Rapid extraction crews and air movers on standby.",
+    "industry": "Emergency Water Damage & Restoration",
+    "service_name": "24/7 Emergency Water Damage & Restoration",
+    "service_description": "Immediate professional response for emergency indoor flooding, structural water extraction, commercial drying, and mold mitigation.",
+    "trust_badge_license": "IICRC Certified Firm (#IICRC-92810)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "Direct Insurance Billing & 100% Dry-Structure Guarantee",
+    "hero_image_url": "images/water-damage-hero.jpg",
+    "hero_image_alt": "Emergency restoration technicians performing structural water extraction",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,450",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "A major pipe burst flooded our entire main floor at 1 AM. DryGuard arrived in under 30 minutes with industrial extractors and saved our hardwood floors from total destruction!",
+    "review_1_author": "Daniel Vance",
+    "review_1_date": "2 weeks ago",
+    "review_2_text": "Professional, fast, and handled all the insurance paperwork directly. Their mold mitigation and drying equipment cleared out all dampness quickly.",
+    "review_2_author": "Sophia Martinez",
+    "review_2_date": "1 month ago",
+    "review_3_text": "Sump pump failure during a severe storm left our basement under three inches of water. They pumped it out and set up industrial dehumidifiers immediately.",
+    "review_3_author": "Robert Taylor",
+    "review_3_date": "3 weeks ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Indoor Flooding or Water Emergency? Call Our 24/7 Extraction Team Now!",
+    "tier_1_name": "Emergency Water Extraction",
+    "tier_1_price": "$199",
+    "tier_1_description": "Rapid response pump-out and surface water extraction for localized indoor flooding.",
+    "tier_1_features": "Submersible pump deployment, truck-mounted extraction, moisture mapping, 24/7 availability",
+    "tier_2_name": "Structural Drying & Dehumidification",
+    "tier_2_price": "$349",
+    "tier_2_description": "Comprehensive drying setup for walls, subfloors, and structural cavities to prevent mold.",
+    "tier_2_features": "Industrial air movers, high-capacity dehumidifiers, daily moisture monitoring logs",
+    "tier_3_name": "Complete Flood & Mold Mitigation",
+    "tier_3_price": "$599",
+    "tier_3_description": "Full disaster restoration including antimicrobial treatment, mold prevention, and insurance claim support.",
+    "tier_3_features": "HEPA air filtration, containment barriers, direct insurance billing, structural sanitization",
+    "faq_1_question": "How quickly can your restoration crew arrive at my home?",
+    "faq_1_answer": "Our emergency flood and water extraction teams are dispatched immediately, arriving on-site within 30 to 45 minutes across our service area.",
+    "faq_2_question": "Do you work directly with my insurance company?",
+    "faq_2_answer": "Yes! We work with all major insurance carriers, providing complete photo documentation, moisture logs, and direct insurance billing to streamline your claim.",
+    "faq_3_question": "Why is fast water extraction so critical?",
+    "faq_3_answer": "Standing water rapidly seeps into drywall, insulation, and subfloors. Acting within the first 24 to 48 hours prevents structural warping and toxic mold growth.",
+    "faq_4_question": "How do you prevent mold after a flood?",
+    "faq_4_answer": "We deploy industrial dehumidifiers, HEPA air scrubbers, and professional antimicrobial treatments to sterilize affected surfaces and inhibit spore growth.",
+    "faq_5_question": "Are your technicians certified in water damage restoration?",
+    "faq_5_answer": "Every technician is fully certified by the IICRC (Institute of Inspection Cleaning and Restoration Certification) in water mitigation and applied structural drying.",
+    "step_1_title": "Call 24/7 Flood Dispatch",
+    "step_1_description": "Report your flooding or water leak to our live dispatch team for immediate crew deployment.",
+    "step_2_title": "Rapid Extraction & Mitigation",
+    "step_2_description": "We arrive with industrial pumps and extractors to remove standing water and set up structural drying equipment.",
+    "step_3_title": "Complete Restoration",
+    "step_3_description": "We monitor moisture levels daily, perform mold prevention treatments, and restore your property to pre-loss condition.",
+    "before_image_url": "images/water-damage-before.jpg",
+    "before_image_alt": "Flooded basement with standing water prior to mitigation",
+    "after_image_url": "images/water-damage-after.jpg",
+    "after_image_alt": "Completely dried, sanitized, and restored room",
+    "project_caption": "Emergency midnight basement flood extraction and structural drying in Metropolis.",
+    "guarantee_headline": "The DryGuard Dry-Structure & Mold-Free Guarantee",
+    "guarantee_description": "We guarantee complete structural dryness. If moisture levels are not fully normalized or mold develops in treated areas, we remediate it at zero additional cost.",
+    "guarantee_terms": "Valid for all certified water mitigation and drying projects completed by DryGuard technicians.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How Our Emergency Water Damage & Extraction Teams Work",
+    "video_caption": "Watch our professional restoration crews handle indoor flooding and structural drying.",
+    "social_facebook_url": "https://facebook.com/dryguardrestoration",
+    "social_instagram_url": "https://instagram.com/dryguardrestoration",
+    "social_nextdoor_url": "https://nextdoor.com/pages/dryguard-restoration",
+    "social_yelp_url": "https://yelp.com/biz/dryguard-restoration-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Emergency Water Extraction",
+      "service_slug": "emergency-water-extraction",
+      "service_description": "Rapid pump-out and truck-mounted water extraction for flooded basements and living areas.",
+      "service_icon_url": "icons/extraction.svg"
+    },
+    {
+      "service_name": "Structural Drying & Dehumidification",
+      "service_slug": "structural-drying",
+      "service_description": "Industrial air movers and high-capacity dehumidifiers to eliminate hidden moisture in walls and subfloors.",
+      "service_icon_url": "icons/drying.svg"
+    },
+    {
+      "service_name": "Mold Mitigation & Remediation",
+      "service_slug": "mold-mitigation",
+      "service_description": "Professional containment, HEPA air scrubbing, and antimicrobial treatment to stop toxic mold growth.",
+      "service_icon_url": "icons/mold.svg"
+    },
+    {
+      "service_name": "Basement Flood Cleanup",
+      "service_slug": "basement-flood-cleanup",
+      "service_description": "Complete sewage and storm water cleanup, sanitization, and debris removal after heavy rains.",
+      "service_icon_url": "icons/basement.svg"
+    },
+    {
+      "service_name": "Burst Pipe Water Mitigation",
+      "service_slug": "burst-pipe-mitigation",
+      "service_description": "Immediate water mitigation and structural drying following sudden indoor pipe ruptures.",
+      "service_icon_url": "icons/pipe-burst.svg"
+    },
+    {
+      "service_name": "Sewage Backup Sanitization",
+      "service_slug": "sewage-backup-sanitization",
+      "service_description": "Hazardous waste extraction, biohazard cleaning, and hospital-grade disinfection for sewer backups.",
+      "service_icon_url": "icons/sewage.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "What to Do in the First 30 Minutes After Indoor Flooding",
+      "post_slug": "first-30-minutes-indoor-flooding",
+      "post_excerpt": "Shut off power, stop the water source, and call emergency extraction professionals immediately.",
+      "post_date": "May 16, 2026",
+      "post_image_url": "images/blog-flood-steps.jpg",
+      "post_category": "Flood Safety"
+    },
+    {
+      "post_title": "How Hidden Moisture Leads to Toxic Mold Within 48 Hours",
+      "post_slug": "hidden-moisture-toxic-mold",
+      "post_excerpt": "Why professional structural drying is essential to prevent invisible mold colonies from spreading in walls.",
+      "post_date": "May 02, 2026",
+      "post_image_url": "images/blog-mold.jpg",
+      "post_category": "Mold Prevention"
+    },
+    {
+      "post_title": "Dealing With Sump Pump Failures During Heavy Spring Storms",
+      "post_slug": "sump-pump-failures-spring-storms",
+      "post_excerpt": "Prevent basement disasters with backup battery systems and rapid emergency pump deployment.",
+      "post_date": "April 20, 2026",
+      "post_image_url": "images/blog-sump.jpg",
+      "post_category": "Storm Protection"
+    },
+    {
+      "post_title": "Navigating Home Insurance Claims for Water Damage Restoration",
+      "post_slug": "insurance-claims-water-damage",
+      "post_excerpt": "Documentation tips and how professional mitigation companies work directly with insurance adjusters.",
+      "post_date": "April 05, 2026",
+      "post_image_url": "images/blog-insurance.jpg",
+      "post_category": "Insurance Guides"
+    },
+    {
+      "post_title": "The Dangers of DIY Water Extraction on Hardwood Floors",
+      "post_slug": "diy-water-extraction-hardwood",
+      "post_excerpt": "Why household fans and towels leave trapped subfloor moisture that warps expensive flooring.",
+      "post_date": "March 18, 2026",
+      "post_image_url": "images/blog-hardwood.jpg",
+      "post_category": "Restoration Tips"
+    },
+    {
+      "post_title": "Understanding Category 1, 2, and 3 Water Damage Classifications",
+      "post_slug": "water-damage-classifications",
+      "post_excerpt": "Clean water, gray water, and black water: why each requires specialized safety and sanitization protocols.",
+      "post_date": "February 24, 2026",
+      "post_image_url": "images/blog-water-types.jpg",
+      "post_category": "Technical Guides"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Water Damage Restoration | DryGuard",
+        "page_meta_description": "Emergency water damage restoration, indoor flood extraction, structural drying, and mold mitigation. On-site in 30 minutes.",
+        "page_headline": "Emergency Water Extraction & Mold Mitigation — On-Site in 30 Minutes",
+        "page_subheadline": "24/7 emergency restoration crews ready to extract indoor flooding, dry structural cavities, and prevent mold.",
+        "page_cta_text": "Call Emergency Extraction Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency Restoration Services Directory | DryGuard",
+        "page_meta_description": "Explore our 24/7 emergency water extraction, structural drying, mold remediation, and flood cleanup services.",
+        "page_headline": "Our Emergency Water Damage Services",
+        "page_subheadline": "IICRC-certified restoration technicians equipped with industrial extraction and drying technology.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Restoration Service Details | DryGuard",
+        "page_meta_description": "Professional water mitigation, upfront pricing, and rapid on-site resolution for indoor flooding and mold.",
+        "page_headline": "Professional Restoration Support When You Need It Most",
+        "page_subheadline": "Expert technicians equipped to safeguard your property from long-term water and mold damage.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Restoration Tips & Emergency Guides | DryGuard",
+        "page_meta_description": "Read expert advice on handling indoor floods, preventing toxic mold, and navigating insurance claims.",
+        "page_headline": "Water Damage Safety & Emergency Blog",
+        "page_subheadline": "Practical guides and expert advice to help you protect your home from water disasters.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Restoration Guide | DryGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical water damage and mold crises.",
+        "page_headline": "Expert Restoration Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing indoor flooding or plumbing water leaks.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Flood Dispatch | DryGuard",
+        "page_meta_description": "Contact our 24/7 emergency water damage dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Flood Dispatch",
+        "page_subheadline": "Call our hotline now for instant extraction routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885553791"
+      }
+    }
+  }
+}

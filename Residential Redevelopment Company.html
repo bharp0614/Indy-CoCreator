@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Redevelopment Company</title>
+    <style>
+        /* CSS Variables for neutral, professional, trustworthy design */
+        :root {
+            --primary: #1e293b; /* Slate 800 */
+            --secondary: #0f172a; /* Slate 900 */
+            --accent: #2563eb; /* Blue 600 */
+            --accent-hover: #1d4ed8; /* Blue 700 */
+            --bg-light: #f8fafc; /* Slate 50 */
+            --bg-white: #ffffff;
+            --text-main: #334155; /* Slate 700 */
+            --text-muted: #64748b; /* Slate 500 */
+            --border: #e2e8f0; /* Slate 200 */
+            --radius: 4px;
+        }
+
+        /* Reset & Base Styles */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--text-main); background-color: var(--bg-light); line-height: 1.6; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { list-style: none; }
+        img { max-width: 100%; height: auto; display: block; }
+
+        /* Typography */
+        h1, h2, h3, h4 { color: var(--primary); margin-bottom: 1rem; line-height: 1.2; }
+        h1 { font-size: 2.5rem; font-weight: 800; }
+        h2 { font-size: 2rem; font-weight: 700; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+        h3 { font-size: 1.25rem; font-weight: 600; }
+        p { margin-bottom: 1rem; }
+
+        /* Layout & Utilities */
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .section { padding: 4rem 0; background-color: var(--bg-white); margin-bottom: 1rem; }
+        .section-alt { background-color: var(--bg-light); }
+        .hidden { display: none !important; }
+        
+        /* Buttons */
+        .btn-primary, .btn-secondary { display: inline-block; padding: 0.75rem 1.5rem; font-weight: 600; border-radius: var(--radius); text-align: center; cursor: pointer; text-decoration: none !important; border: none; font-size: 1rem;}
+        .btn-primary { background-color: var(--accent); color: white; }
+        .btn-primary:hover { background-color: var(--accent-hover); color: white;}
+        .btn-secondary { background-color: transparent; color: var(--primary); border: 2px solid var(--primary); }
+        .btn-secondary:hover { background-color: var(--primary); color: white; }
+
+        /* Header */
+        header { background-color: var(--bg-white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; padding: 1rem 0; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; }
+        nav ul { display: flex; gap: 1.5rem; align-items: center; }
+        nav a { color: var(--text-main); font-weight: 500; }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+        
+        /* Heroes */
+        .hero { background-color: var(--primary); color: white; padding: 6rem 0; text-align: center; }
+        .hero h1 { color: white; margin-bottom: 1.5rem; }
+        .hero p { font-size: 1.25rem; max-width: 700px; margin: 0 auto 2rem; color: #cbd5e1; }
+        .hero-actions { display: flex; gap: 1rem; justify-content: center; }
+        .hero .btn-secondary { border-color: white; color: white; }
+        .hero .btn-secondary:hover { background-color: white; color: var(--primary); }
+
+        /* Trust Strip */
+        .trust-strip { background-color: var(--secondary); color: white; padding: 1.5rem 0; text-align: center; font-weight: 500; }
+        .trust-strip ul { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+
+        /* Grids */
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+
+        /* Cards */
+        .card { background: var(--bg-white); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; }
+        .project-card { background: var(--bg-white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+        .project-card img { width: 100%; height: 200px; object-fit: cover; background: #e2e8f0; }
+        .project-content { padding: 1.5rem; }
+        .status-badge { display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.875rem; font-weight: 600; border-radius: 50px; margin-bottom: 1rem; background: #e2e8f0; color: var(--text-main); text-transform: capitalize; }
+
+        /* Forms */
+        form { background: var(--bg-white); padding: 2rem; border: 1px solid var(--border); border-radius: var(--radius); }
+        fieldset { border: none; margin-bottom: 2rem; }
+        legend { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary); }
+        .form-group { margin-bottom: 1.5rem; }
+        label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea { width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); font-family: inherit; font-size: 1rem; }
+        .checkbox-wrapper { display: flex; gap: 0.5rem; align-items: flex-start; margin-bottom: 1rem; }
+        .checkbox-wrapper input { margin-top: 0.25rem; }
+        .checkbox-wrapper label { font-weight: 400; }
+
+        /* FAQ Accordion Mock */
+        .faq-item { border-bottom: 1px solid var(--border); padding: 1rem 0; }
+        .faq-item summary { font-weight: 600; font-size: 1.1rem; cursor: pointer; color: var(--primary); }
+        .faq-item p { margin-top: 1rem; color: var(--text-muted); }
+
+        /* Footer */
+        footer { background-color: var(--secondary); color: #cbd5e1; padding: 4rem 0 2rem; }
+        footer h4 { color: white; margin-bottom: 1.5rem; border-bottom: none; }
+        footer a { color: #cbd5e1; }
+        footer a:hover { color: white; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+
+        /* JSON Output Console (For Prototype demonstration) */
+        #json-output { background: #1e1e1e; color: #d4d4d4; padding: 1.5rem; border-radius: var(--radius); font-family: monospace; overflow-x: auto; margin-top: 2rem; display: none; }
+    </style>
+</head>
+<body>
+
+    <!-- SITE HEADER -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">Redeveloper</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sell">Sell a Property</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#sell" class="btn-primary">Submit a Property</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==============================================
+             HOME VIEW
+             ============================================== -->
+        <div id="view-home" class="view">
+            <section class="hero">
+                <div class="container">
+                    <h1>Residential Redevelopment in Central Indiana</h1>
+                    <p>Direct property buyers backed by 30 years of construction-management experience. No high-pressure sales, no fabricated calculators.</p>
+                    <div class="hero-actions">
+                        <a href="#sell" class="btn-primary">Submit a Property</a>
+                        <a href="#projects" class="btn-secondary">View Our Projects</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="trust-strip">
+                <div class="container">
+                    <ul>
+                        <li>30 Years Construction Management</li>
+                        <li>Locally Operated</li>
+                        <li>Dedicated Renovation Crews</li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="section container">
+                <h2>Common Situations We Work With</h2>
+                <p>Every property has a unique history. We are equipped to acquire properties in situations that traditional buyers often avoid.</p>
+                <div class="grid-3" style="margin-top: 2rem;">
+                    <div class="card">
+                        <h3>Inherited Properties</h3>
+                        <p>Managing an estate or a house left behind by a loved one.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Major Repairs Needed</h3>
+                        <p>Homes requiring structural work, new roofs, or complete cosmetic updates.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Problem Rentals</h3>
+                        <p>Landlord-owned properties with deferred maintenance or past tenant damage.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ==============================================
+             SELL A PROPERTY VIEW
+             ============================================== -->
+        <div id="view-sell" class="view hidden">
+            <section class="hero" style="padding: 4rem 0;">
+                <div class="container">
+                    <h1>Sell Your Property Directly to Us</h1>
+                    <p>We acquire and redevelop residential properties throughout Central Indiana. There is no obligation to accept an offer.</p>
+                </div>
+            </section>
+
+            <section class="section container">
+                <div class="grid-2">
+                    <div>
+                        <h2>How Our Acquisition Process Works</h2>
+                        <p>Our goal is to make the transition of your property as straightforward as possible. We do not use automated calculators or high-pressure sales tactics.</p>
+                        <ol style="margin-left: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
+                            <li><strong>Initial Contact:</strong> Submit your property details through our secure form.</li>
+                            <li><strong>Information Review:</strong> We evaluate recent comparable sales in the neighborhood.</li>
+                            <li><strong>On-Site Walkthrough:</strong> We schedule a brief, in-person walkthrough to assess necessary repairs.</li>
+                            <li><strong>Written Offer:</strong> You receive a clear, written offer based on our renovation scope.</li>
+                            <li><strong>Title & Closing:</strong> We handle the transaction through a reputable, local title company.</li>
+                        </ol>
+
+                        <h2>How We Calculate Offers</h2>
+                        <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                            <li>Current property condition</li>
+                            <li>Cost of required structural and cosmetic updates</li>
+                            <li>Comparable property values in the neighborhood</li>
+                            <li>Holding costs during the renovation period</li>
+                            <li>Closing expenses</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Submit a Property for Review</h2>
+                        <form id="property-form">
+                            <fieldset>
+                                <legend>Property Details</legend>
+                                <div class="form-group">
+                                    <label for="address">Property Address *</label>
+                                    <input type="text" id="address" name="address" required>
+                                </div>
+                                <div class="form-group" style="display: flex; gap: 1rem;">
+                                    <div style="flex: 1;">
+                                        <label for="city">City *</label>
+                                        <input type="text" id="city" name="city" required>
+                                    </div>
+                                    <div style="flex: 1;">
+                                        <label for="zip">ZIP *</label>
+                                        <input type="text" id="zip" name="zip" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="condition">General Condition *</label>
+                                    <select id="condition" name="condition" required>
+                                        <option value="">Select...</option>
+                                        <option value="needs_minor_updates">Needs minor updates</option>
+                                        <option value="needs_major_repairs">Needs major repairs</option>
+                                        <option value="complete_rehab">Complete gut/rehab needed</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                <div class="form-group">
+                                    <label for="contact_name">Full Name *</label>
+                                    <input type="text" id="contact_name" name="contact_name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </fieldset>
+
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="consent" required>
+                                <label for="consent">I consent to be contacted regarding this property submission. *</label>
+                            </div>
+
+                            <button type="submit" class="btn-primary" style="width: 100%;">Submit Property</button>
+                        </form>
+                        
+                        <!-- JSON Output display for demonstration -->
+                        <pre id="json-output"></pre>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ==============================================
+             PROJECTS VIEW
+             ============================================== -->
+        <div id="view-projects" class="view hidden">
+            <section class="hero" style="padding: 4rem 0;">
+                <div class="container">
+                    <h1>Our Redevelopment Projects</h1>
+                    <p>Explore actual acquisitions and renovations completed in our local market. We do not use stock photos or fabricated case studies.</p>
+                </div>
+            </section>
+
+            <section class="section container">
+                <!-- Dynamically populated by JS JSON data -->
+                <div id="project-grid-container" class="grid-3"></div>
+            </section>
+        </div>
+
+        <!-- ==============================================
+             ABOUT VIEW
+             ============================================== -->
+        <div id="view-about" class="view hidden">
+            <section class="hero" style="padding: 4rem 0;">
+                <div class="container">
+                    <h1>Backed by 30 Years of Construction Management</h1>
+                </div>
+            </section>
+
+            <section class="section container grid-2">
+                <div>
+                    <h2>The Operating Standard</h2>
+                    <p>Residential redevelopment requires more than just capital; it requires disciplined project oversight and an uncompromising standard for quality. We are led by ownership that brings over three decades of commercial and residential construction management experience directly to the local market.</p>
+                    <p>By managing the acquisition, structural planning, and daily job site execution under one roof, we eliminate the inefficiencies of traditional real estate investing.</p>
+                </div>
+                <div>
+                    <h2>Our Renovation Team</h2>
+                    <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                        <li style="margin-bottom: 0.5rem;"><strong>Project Lead:</strong> Strict adherence to municipal codes, safety standards, and project budgets.</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Renovation Crew One:</strong> Dedicated structural updates, framing, roofing, and rough carpentry.</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Renovation Crew Two:</strong> Dedicated interior finishing, cabinetry, and details.</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Licensed Trade Partners:</strong> Verified network for all specialized system installations (HVAC, electrical, plumbing).</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- ==============================================
+             CONTACT VIEW
+             ============================================== -->
+        <div id="view-contact" class="view hidden">
+            <section class="hero" style="padding: 4rem 0;">
+                <div class="container">
+                    <h1>Contact Us</h1>
+                    <p>Reach out directly for general inquiries, referrals, or trade opportunities.</p>
+                </div>
+            </section>
+            
+            <section class="section container text-center" style="text-align: center;">
+                <h2>How can we help?</h2>
+                <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem;">
+                    <a href="#sell" class="card" style="display: block; max-width: 400px;">
+                        <h3>I Have a Property to Sell</h3>
+                        <p style="color: var(--text-main);">Direct property owners click here for our dedicated evaluation form.</p>
+                    </a>
+                    <a href="#" class="card" style="display: block; max-width: 400px; border-color: var(--accent);">
+                        <h3>I am an Agent / Wholesaler / Vendor</h3>
+                        <p style="color: var(--text-main);">Email us directly at <strong>operations@example.com</strong></p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- SITE FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Property</h4>
+                <ul>
+                    <li><a href="#sell">Sell a Property</a></li>
+                    <li><a href="#sell">Property FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="border-top: 1px solid #334155; padding-top: 1.5rem;">
+            <p>&copy; 2026 Residential Redevelopment Company. All verified rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LOGIC & JSON DATA -->
+    <script>
+        // 1. SPA Routing Logic
+        function handleRouting() {
+            const hash = window.location.hash || '#home';
+            const views = document.querySelectorAll('.view');
+            
+            views.forEach(view => {
+                if ('#' + view.id.replace('view-', '') === hash) {
+                    view.classList.remove('hidden');
+                } else {
+                    view.classList.add('hidden');
+                }
+            });
+            window.scrollTo(0, 0);
+        }
+        window.addEventListener('hashchange', handleRouting);
+        window.addEventListener('load', handleRouting);
+
+        // 2. JSON Project Records Data
+        const projectsDatabase = [
+            {
+                "project_slug": "maple-street-revival",
+                "project_name": "Maple Street Structural Revival",
+                "neighborhood": "Broad Ripple",
+                "property_type": "Single Family",
+                "status": "completed",
+                "renovation_summary": "Full foundation stabilization, complete kitchen redesign, and HVAC replacement.",
+                "featured_image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3ECompleted Exterior Image%3C/text%3E%3C/svg%3E"
+            },
+            {
+                "project_slug": "oak-avenue-update",
+                "project_name": "Oak Avenue Cosmetic Update",
+                "neighborhood": "Meridian-Kessler",
+                "property_type": "Multi-Unit",
+                "status": "in_renovation",
+                "renovation_summary": "Updating both units with new flooring, cabinetry, and modern plumbing fixtures.",
+                "featured_image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EIn-Progress Exterior Image%3C/text%3E%3C/svg%3E"
+            },
+            {
+                "project_slug": "pine-lane-rehab",
+                "project_name": "Pine Lane Complete Rehab",
+                "neighborhood": "Fountain Square",
+                "property_type": "Single Family",
+                "status": "acquired",
+                "renovation_summary": "Property acquired. Currently in architectural planning phase for a complete gut rehabilitation.",
+                "featured_image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EBefore Exterior Image%3C/text%3E%3C/svg%3E"
+            }
+        ];
+
+        // 3. Render JSON to DOM
+        function renderProjects() {
+            const container = document.getElementById('project-grid-container');
+            container.innerHTML = projectsDatabase.map(project => `
+                <article class="project-card">
+                    <img src="${project.featured_image}" alt="${project.project_name}">
+                    <div class="project-content">
+                        <span class="status-badge">${project.status.replace('_', ' ')}</span>
+                        <h3>${project.project_name}</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">${project.neighborhood} &bull; ${project.property_type}</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">${project.renovation_summary}</p>
+                    </div>
+                </article>
+            `).join('');
+        }
+        window.addEventListener('DOMContentLoaded', renderProjects);
+
+        // 4. Form Submission Payload Generation Logic
+        document.getElementById('property-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Build the JSON Payload based on our defined schema
+            const payload = {
+                "lead_type": "property_submission",
+                "lead_status": "new",
+                "property_details": {
+                    "address": document.getElementById('address').value,
+                    "city": document.getElementById('city').value,
+                    "zip_code": document.getElementById('zip').value,
+                    "property_condition": document.getElementById('condition').value
+                },
+                "contact_details": {
+                    "contact_name": document.getElementById('contact_name').value,
+                    "phone": document.getElementById('phone').value,
+                },
+                "tracking_metadata": {
+                    "lead_source": "website_property_form",
+                    "submission_timestamp": new Date().toISOString(),
+                    "form_version": "1.0"
+                }
+            };
+
+            // Display JSON output for prototype visualization
+            const outputBox = document.getElementById('json-output');
+            outputBox.style.display = 'block';
+            outputBox.textContent = "// API Payload Generated (Sent to CRM Webhook)\n\n" + JSON.stringify(payload, null, 2);
+            
+            // UX feedback
+            const btn = this.querySelector('button');
+            btn.textContent = "Submission Captured!";
+            btn.style.backgroundColor = "#16a34a"; // Green
+            
+            setTimeout(() => {
+                btn.textContent = "Submit Property";
+                btn.style.backgroundColor = "";
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

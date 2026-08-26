@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Maple Street Structural Revival",
+    "category": "Single Family",
+    "location": "Broad Ripple",
+    "scope": "Full foundation stabilization, complete kitchen redesign, and HVAC replacement.",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3ECompleted Exterior Image%3C/text%3E%3C/svg%3E",
+    "status": "Completed"
+  },
+  {
+    "title": "Oak Avenue Cosmetic Update",
+    "category": "Multi-Unit",
+    "location": "Meridian-Kessler",
+    "scope": "Updating both units with new flooring, cabinetry, and modern plumbing fixtures.",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EIn-Progress Exterior Image%3C/text%3E%3C/svg%3E",
+    "status": "In Progress"
+  },
+  {
+    "title": "Pine Lane Complete Rehab",
+    "category": "Single Family",
+    "location": "Fountain Square",
+    "scope": "Property acquired. Currently in architectural planning phase for a complete gut rehabilitation.",
+    "image": "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23cbd5e1'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23475569' font-family='sans-serif' font-size='16'%3EBefore Exterior Image%3C/text%3E%3C/svg%3E",
+    "status": "Planned"
+  }
+]

@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting emergency electrical service demo site",
+    "industry_classification": "Emergency Electrical Services",
+    "skin": "electrical-emergency-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "VoltGuard Emergency Electrical",
+    "client_legal_name": "VoltGuard Electrical & Power Solutions LLC",
+    "client_phone": "(888) 555-VOLT",
+    "client_email": "dispatch@voltguardelectrical.com",
+    "client_address": "310 Surge Protection Parkway",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10006",
+    "client_owner_name": "Victor Sterling",
+    "client_year_founded": "2010",
+    "client_tagline": "24/7 Emergency Electrical Dispatch — On-Site in 30 Minutes for Outages & Sparks",
+    "client_website_url": "https://www.voltguardelectrical.com",
+    "client_google_profile_url": "https://maps.google.com/?q=VoltGuard+Electrical",
+    "service_area": "Greater Metropolis Area & Surrounding Counties",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY ELECTRICAL DISPATCH ACTIVE: Master electricians on standby for sparking panels and hazards.",
+    "industry": "Emergency Electrical Services",
+    "service_name": "24/7 Emergency Electrical Services",
+    "service_description": "Immediate professional response for dangerous power outages, smoking outlets, sparking breaker panels, and hazardous wiring.",
+    "trust_badge_license": "Licensed Master Electrician (#MEL-559201)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "Safety Code Compliance & 100% Workmanship Guarantee",
+    "hero_image_url": "images/electrical-emergency-hero.jpg",
+    "hero_image_alt": "Emergency master electrician inspecting a sparking breaker panel",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,310",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "Our breaker panel started sparking and smoking late at night. VoltGuard dispatched an electrician who arrived in 25 minutes, shut down the dangerous feed, and replaced the faulty breaker safely.",
+    "review_1_author": "Arthur Pendelton",
+    "review_1_date": "2 weeks ago",
+    "review_2_text": "Half the house lost power during a severe thunderstorm. Their emergency crew diagnosed a main lug failure and restored our power before morning.",
+    "review_2_author": "Michelle Chang",
+    "review_2_date": "1 month ago",
+    "review_3_text": "Extremely knowledgeable and professional. They fixed a smoking outlet behind our kitchen wall and tested all circuits for safety.",
+    "review_3_author": "David Ross",
+    "review_3_date": "3 weeks ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Sparking Outlets or Panel Failure? Call Our 24/7 Emergency Electrician Now!",
+    "tier_1_name": "Emergency Safety Inspection",
+    "tier_1_price": "$149",
+    "tier_1_description": "Rapid thermal imaging and circuit testing for smoking outlets, buzzing switches, and warm walls.",
+    "tier_1_features": "Infrared camera scan, breaker trip diagnosis, immediate hazard containment, 24/7 dispatch",
+    "tier_2_name": "Emergency Panel & Breaker Repair",
+    "tier_2_price": "$269",
+    "tier_2_description": "Urgent replacement of faulty breakers, melted bus bars, and damaged main lugs.",
+    "tier_2_features": "Priority dispatch, diagnostic fee waived with repair, heavy-duty commercial grade components",
+    "tier_3_name": "Critical Hazard & Rewiring Rescue",
+    "tier_3_price": "$499",
+    "tier_3_description": "Full emergency rewiring of dangerous short circuits, meter base failures, and storm-damaged feeds.",
+    "tier_3_features": "Multi-electrician deployment, utility coordination, emergency temporary power hookup, code compliance guarantee",
+    "faq_1_question": "What should I do immediately if my breaker panel starts smoking or sparking?",
+    "faq_1_answer": "If it is safe to do so, shut off your main breaker switch immediately, evacuate the area if flames are present, and call our 24/7 emergency dispatch hotline.",
+    "faq_2_question": "Why are smoking outlets or buzzing wall switches a major fire hazard?",
+    "faq_2_answer": "Buzzing or smoking indicates loose wiring, arcing, or excessive electrical resistance which can quickly ignite wall insulation and framing. Call an electrician right away.",
+    "faq_3_question": "Do you charge extra for midnight or weekend emergency electrical calls?",
+    "faq_3_answer": "We maintain transparent, flat-rate emergency pricing with no hidden surprises, regardless of whether you call during a holiday freeze or late-night thunderstorm.",
+    "faq_4_question": "How fast can an emergency electrician arrive at my home?",
+    "faq_4_answer": "Our average on-site emergency response time for hazardous electrical situations is between 25 and 40 minutes.",
+    "faq_5_question": "Are your electricians fully licensed and certified?",
+    "faq_5_answer": "Every technician on our team is a state-certified licensed master electrician, fully insured, background-checked, and safety-trained.",
+    "step_1_title": "Call 24/7 Electrical Dispatch",
+    "step_1_description": "Report your smoking outlet, sparking panel, or power outage to our live safety dispatchers.",
+    "step_2_title": "Rapid Master Electrician Arrival",
+    "step_2_description": "Our certified electrician arrives promptly in a fully equipped van with diagnostic thermal tools.",
+    "step_3_title": "Hazard Isolation & Repair",
+    "step_3_description": "We isolate the dangerous circuit, execute professional repairs, and verify total electrical safety.",
+    "before_image_url": "images/electrical-before.jpg",
+    "before_image_alt": "Damaged sparking breaker panel or smoking outlet prior to repair",
+    "after_image_url": "images/electrical-after.jpg",
+    "after_image_alt": "Fully repaired, code-compliant breaker panel and safe electrical wiring",
+    "project_caption": "Emergency midnight breaker panel replacement and arcing fault correction in Metropolis.",
+    "guarantee_headline": "The VoltGuard Safety & Code-Compliance Guarantee",
+    "guarantee_description": "We guarantee absolute electrical safety. If a repaired circuit fails or experiences identical issues within 1 year, we return and service it completely free.",
+    "guarantee_terms": "Valid for all permanent electrical repairs and installations completed by VoltGuard master electricians.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How Our Master Electricians Handle Emergency Panel Failures",
+    "video_caption": "Watch our rapid-response electrical teams diagnose and repair hazardous power issues.",
+    "social_facebook_url": "https://facebook.com/voltguardelectrical",
+    "social_instagram_url": "https://instagram.com/voltguardelectrical",
+    "social_nextdoor_url": "https://nextdoor.com/pages/voltguard-electrical",
+    "social_yelp_url": "https://yelp.com/biz/voltguard-electrical-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Sparking Breaker Panel Repair",
+      "service_slug": "sparking-breaker-panel",
+      "service_description": "Emergency troubleshooting and replacement of arcing breakers, burnt bus bars, and faulty panels.",
+      "service_icon_url": "icons/panel.svg"
+    },
+    {
+      "service_name": "Smoking Outlet & Switch Repair",
+      "service_slug": "smoking-outlet-repair",
+      "service_description": "Rapid isolation and wiring correction for smoking, buzzing, or scorching electrical outlets and switches.",
+      "service_icon_url": "icons/outlet.svg"
+    },
+    {
+      "service_name": "Emergency Power Outage Diagnostics",
+      "service_slug": "power-outage-diagnostics",
+      "service_description": "Troubleshooting partial or total home power losses, burnt service drops, and meter base failures.",
+      "service_icon_url": "icons/outage.svg"
+    },
+    {
+      "service_name": "Hazardous Wiring Remediation",
+      "service_slug": "hazardous-wiring-remediation",
+      "service_description": "Immediate identification and safe replacement of exposed, frayed, or outdated knob-and-tube wiring.",
+      "service_icon_url": "icons/wiring.svg"
+    },
+    {
+      "service_name": "Emergency Generator Hookup",
+      "service_slug": "emergency-generator-hookup",
+      "service_description": "Safe connection and transfer switch setup for emergency backup generators during grid failures.",
+      "service_icon_url": "icons/generator.svg"
+    },
+    {
+      "service_name": "Storm Damage Electrical Repair",
+      "service_slug": "storm-damage-electrical",
+      "service_description": "Repair of torn weatherheads, downed service masts, and storm-compromised exterior feeds.",
+      "service_icon_url": "icons/storm-electrical.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "Why Your Breaker Panel Is Sparking and What to Do Immediately",
+      "post_slug": "breaker-panel-sparking-what-to-do",
+      "post_excerpt": "Recognize the signs of dangerous electrical arcing and follow critical safety steps before calling an electrician.",
+      "post_date": "May 19, 2026",
+      "post_image_url": "images/blog-panel.jpg",
+      "post_category": "Electrical Safety"
+    },
+    {
+      "post_title": "Recognizing Warning Signs of Smoking Outlets and Warm Switches",
+      "post_slug": "smoking-outlets-warm-switches",
+      "post_excerpt": "Buzzing sounds, scorching marks, and burning plastic smells indicate an urgent fire hazard behind your walls.",
+      "post_date": "May 05, 2026",
+      "post_image_url": "images/blog-outlet.jpg",
+      "post_category": "Home Safety"
+    },
+    {
+      "post_title": "Partial Power Outage in Your Home: Causes and Emergency Fixes",
+      "post_slug": "partial-power-outage-causes",
+      "post_excerpt": "Why losing power to only half your rooms points to a tripped double-pole breaker or utility drop failure.",
+      "post_date": "April 24, 2026",
+      "post_image_url": "images/blog-outage.jpg",
+      "post_category": "Power Outages"
+    },
+    {
+      "post_title": "The Hidden Dangers of Outdated Aluminum and Knob-and-Tube Wiring",
+      "post_slug": "outdated-aluminum-wiring-dangers",
+      "post_excerpt": "How aging residential wiring systems create high fire risks and why modern upgrades are essential.",
+      "post_date": "April 10, 2026",
+      "post_image_url": "images/blog-wiring.jpg",
+      "post_category": "Wiring Hazards"
+    },
+    {
+      "post_title": "How to Safely Operate Portable Generators During Storm Outages",
+      "post_slug": "safely-operate-portable-generators",
+      "post_excerpt": "Avoid carbon monoxide poisoning and dangerous backfeeding by using proper transfer switches.",
+      "post_date": "March 22, 2026",
+      "post_image_url": "images/blog-generator.jpg",
+      "post_category": "Emergency Preparedness"
+    },
+    {
+      "post_title": "Understanding GFCI and AFCI Protection for Modern Electrical Safety",
+      "post_slug": "gfci-afci-protection-safety",
+      "post_excerpt": "Ground fault and arc fault circuit interrupters save lives by preventing shocks and electrical fires.",
+      "post_date": "February 28, 2026",
+      "post_image_url": "images/blog-gfci.jpg",
+      "post_category": "Electrical Codes"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Electrical Services | VoltGuard",
+        "page_meta_description": "Emergency electrical services for power outages, smoking outlets, sparking breaker panels, and hazardous wiring. On-site in 30 minutes.",
+        "page_headline": "Emergency Electrical Repair — On-Site in 30 Minutes for Outages & Sparks",
+        "page_subheadline": "24/7 master electricians ready to resolve dangerous power outages, smoking outlets, and sparking breaker panels.",
+        "page_cta_text": "Call Emergency Electrician Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "Emergency Electrical Services Directory | VoltGuard",
+        "page_meta_description": "Explore our 24/7 emergency electrical repair, panel replacement, outlet troubleshooting, and storm restoration services.",
+        "page_headline": "Our Emergency Electrical Services",
+        "page_subheadline": "Licensed master electricians equipped to diagnose and neutralize electrical hazards immediately.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Electrical Service Details | VoltGuard",
+        "page_meta_description": "Professional electrical repair, transparent pricing, and rapid on-site resolution for power hazards and panel failures.",
+        "page_headline": "Professional Electrical Support When You Need It Most",
+        "page_subheadline": "Expert master electricians equipped with advanced diagnostic tools to keep your home safe.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Electrical Safety Tips & Guides | VoltGuard",
+        "page_meta_description": "Read expert advice on handling sparking breaker panels, smoking outlets, power outages, and wiring hazards.",
+        "page_headline": "Electrical Safety & Emergency Blog",
+        "page_subheadline": "Practical guides and expert advice to help you protect your home from electrical fire hazards.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Electrical Guide | VoltGuard",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical electrical emergencies.",
+        "page_headline": "Expert Electrical Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing sparking panels or smoking electrical outlets.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Electrical Dispatch | VoltGuard",
+        "page_meta_description": "Contact our 24/7 emergency electrical dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Electrical Dispatch",
+        "page_subheadline": "Call our hotline now for instant electrician routing or submit an urgent request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885558658"
+      }
+    }
+  }
+}

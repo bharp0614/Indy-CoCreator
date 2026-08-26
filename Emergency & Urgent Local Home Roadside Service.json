@@ -1,0 +1,454 @@
+{
+  "routing": {
+    "primary_goal": "Generate high-converting local emergency service demo site",
+    "industry_classification": "Emergency & Urgent Local Home/Roadside Services",
+    "skin": "emergency-alert-v1",
+    "template": "local-service-emergency-pro-v1",
+    "classification_source": "00_SYSTEM-RULES/industry-classification.md",
+    "dispatch_target": "system-dispatcher.md",
+    "intake_status": "READY"
+  },
+  "tokens": {
+    "client_name": "RapidRescue Pro",
+    "client_legal_name": "RapidRescue Emergency Services LLC",
+    "client_phone": "(888) 555-EMER",
+    "client_email": "dispatch@rapidrescuepro.com",
+    "client_address": "100 Urgent Way, Suite 400",
+    "client_city": "Metropolis",
+    "client_state": "NY",
+    "client_zip": "10001",
+    "client_owner_name": "Marcus Vance",
+    "client_year_founded": "2012",
+    "client_tagline": "24/7 Emergency Dispatch — On-Site in 30 Minutes or Less",
+    "client_website_url": "https://www.rapidrescuepro.com",
+    "client_google_profile_url": "https://maps.google.com/?q=RapidRescue+Pro",
+    "service_area": "Greater Metropolis Area & Surrounding Counties",
+    "current_year": "2026",
+    "urgency_message": "EMERGENCY DISPATCH LIVE: Average response time right now is 24 minutes.",
+    "industry": "Emergency Home & Roadside Services",
+    "service_name": "24/7 Emergency Roadside, Home & Property Dispatch",
+    "service_description": "Immediate professional response for vehicle breakdowns, home lockouts, plumbing disasters, HVAC failures, electrical hazards, and property damage.",
+    "trust_badge_license": "Licensed, Bonded & Insured (#LIC-994821)",
+    "trust_badge_rating": "4.9 / 5.0 Star Rating",
+    "trust_badge_guarantee": "100% Satisfaction & Rapid Dispatch Guarantee",
+    "hero_image_url": "images/emergency-dispatch-hero.jpg",
+    "hero_image_alt": "Emergency response vehicle and technicians on standby",
+    "review_aggregate_score": "4.9",
+    "review_aggregate_count": "1,420",
+    "review_source": "Google Verified Reviews",
+    "review_1_text": "Locked my keys in the car at midnight in freezing weather. The locksmith arrived in under 20 minutes and had me back on the road instantly!",
+    "review_1_author": "Sarah Jenkins",
+    "review_1_date": "2 weeks ago",
+    "review_2_text": "Had a burst pipe flood our basement at 3 AM. RapidRescue's plumbing and water extraction crew arrived fast and saved our home from total ruin.",
+    "review_2_author": "David Miller",
+    "review_2_date": "1 month ago",
+    "review_3_text": "AC went out during the absolute peak of the summer heat wave. They diagnosed and fixed the system within an hour of calling. Life savers!",
+    "review_3_author": "Elena Rostova",
+    "review_3_date": "3 weeks ago",
+    "service_area_city_list": "Metropolis, Centerville, Shelbyville, Capital City, Oakridge, Westbridge",
+    "service_area_slug": "greater-metropolis",
+    "cta_inline_message": "Stranded or Facing an Emergency? Call Our 24/7 Dispatch Hotline Now!",
+    "tier_1_name": "Standard Dispatch",
+    "tier_1_price": "$99",
+    "tier_1_description": "Immediate priority dispatch for non-catastrophic roadside or home service calls.",
+    "tier_1_features": "Priority routing, licensed technician, 60-min arrival target, standard diagnostics",
+    "tier_2_name": "Rapid Emergency Response",
+    "tier_2_price": "$175",
+    "tier_2_description": "Urgent priority dispatch for lockouts, flat tires, minor leaks, and electrical trips.",
+    "tier_2_features": "Immediate dispatch, 30-min arrival target, waived diagnostic fee with repair, 24/7 availability",
+    "tier_3_name": "Critical Disaster Rescue",
+    "tier_3_price": "$295",
+    "tier_3_description": "Emergency containment for major indoor flooding, severe storm damage, and structural hazards.",
+    "tier_3_features": "Multi-person crew deployment, immediate temporary repairs, insurance claim documentation, 24/7/365 priority",
+    "faq_1_question": "How fast can your technicians arrive at my location?",
+    "faq_1_answer": "Our average on-site response time across the service area is between 20 to 35 minutes depending on traffic and weather conditions.",
+    "faq_2_question": "Are your emergency services available on holidays and weekends?",
+    "faq_2_answer": "Yes! Our dispatch center and mobile response teams operate 24 hours a day, 7 days a week, 365 days a year—including all holidays.",
+    "faq_3_question": "Do you work directly with insurance companies for property damage?",
+    "faq_3_answer": "Absolutely. We provide complete photo documentation, detailed scopes of work, and direct billing options to make your insurance claim seamless.",
+    "faq_4_question": "What payment methods do you accept on-site?",
+    "faq_4_answer": "We accept all major credit cards, debit cards, mobile payments (Apple Pay/Google Pay), and approved insurance claim assignments.",
+    "faq_5_question": "Are your technicians certified and insured?",
+    "faq_5_answer": "Every technician, locksmith, tow operator, and contractor on our team is fully licensed, background-checked, insured, and certified in their specialty.",
+    "step_1_title": "Call 24/7 Dispatch",
+    "step_1_description": "Speak directly with our live dispatch team to report your emergency and share your precise location.",
+    "step_2_title": "Rapid Mobile Dispatch",
+    "step_2_description": "We immediately route the nearest available specialist directly to your home, highway, or business.",
+    "step_3_title": "Resolution & Safety",
+    "step_3_description": "Our expert resolves the issue on-site, secures your property or vehicle, and verifies your complete satisfaction.",
+    "before_image_url": "images/damage-before.jpg",
+    "before_image_alt": "Property damage or stranded vehicle prior to emergency service",
+    "after_image_url": "images/damage-after.jpg",
+    "after_image_alt": "Fully restored property or successfully repaired vehicle",
+    "project_caption": "Emergency midnight flood extraction and structural drying in Metropolis.",
+    "guarantee_headline": "The RapidRescue 30-Minute Arrival Promise",
+    "guarantee_description": "We respect your time and urgency. If our emergency dispatch unit fails to arrive within the promised window, your dispatch fee is 100% refunded.",
+    "guarantee_terms": "Valid for all primary service zones under standard traffic conditions. Contact dispatch for full terms.",
+    "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video_title": "See How Our 24/7 Emergency Dispatch Center Works",
+    "video_caption": "Take a behind-the-scenes look at how our rapid-response teams handle emergency calls in real-time.",
+    "social_facebook_url": "https://facebook.com/rapidrescuepro",
+    "social_instagram_url": "https://instagram.com/rapidrescuepro",
+    "social_nextdoor_url": "https://nextdoor.com/pages/rapidrescue-pro",
+    "social_yelp_url": "https://yelp.com/biz/rapidrescue-pro-metropolis"
+  },
+  "design_tokens": {
+    "top_emergency_banner": {
+      "banner-background-color": "var(--alert-red)",
+      "banner-text-color": "var(--white)",
+      "banner-button-color": "var(--accent-color)",
+      "banner-width": "100%",
+      "banner-padding": "1rem 2rem",
+      "banner-transition-duration": "0.3s",
+      "banner-headline-font-size": "2rem",
+      "banner-description-font-size": "1rem",
+      "banner-button-font-size": "1rem",
+      "banner-border-radius": "0.5rem",
+      "banner-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "banner-fade-in-duration": "0.5s",
+      "banner-slide-in-duration": "0.5s",
+      "banner-icon-size": "1.5rem"
+    },
+    "main_navigation_header": {
+      "nav-background-color": "var(--white)",
+      "nav-text-color": "var(--text-dark)",
+      "nav-hover-color": "var(--accent-color)",
+      "nav-logo-size": "150px",
+      "nav-height": "60px",
+      "nav-padding": "1rem",
+      "nav-link-font-size": "1rem",
+      "nav-button-font-size": "1rem",
+      "nav-link-border-radius": "0.25rem",
+      "nav-link-transition-duration": "0.3s"
+    },
+    "hero_section": {
+      "hero-background-color": "var(--white)",
+      "hero-text-color": "var(--text-dark)",
+      "hero-button-color": "var(--accent-color)",
+      "hero-height": "600px",
+      "hero-padding": "2rem",
+      "hero-headline-font-size": "3rem",
+      "hero-subheadline-font-size": "1.5rem",
+      "hero-button-font-size": "1rem",
+      "hero-button-border-radius": "0.25rem",
+      "hero-transition-duration": "0.3s",
+      "hero-fade-in-duration": "0.5s"
+    },
+    "service_category_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-description-font-size": "1rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "feature_grid_checklist_item": {
+      "grid-background-color": "var(--white)",
+      "grid-text-color": "var(--text-dark)",
+      "grid-hover-color": "var(--accent-color)",
+      "grid-item-width": "300px",
+      "grid-item-padding": "1.5rem",
+      "grid-item-margin": "1rem",
+      "grid-title-font-size": "1.5rem",
+      "grid-description-font-size": "1rem",
+      "grid-item-border-radius": "0.5rem",
+      "grid-item-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "blog_post_resource_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--text-muted)",
+      "card-text-color": "var(--text-dark)",
+      "card-hover-color": "var(--accent-color)",
+      "card-button-color": "var(--accent-color)",
+      "card-width": "300px",
+      "card-padding": "1.5rem",
+      "card-margin": "1rem",
+      "card-title-font-size": "1.5rem",
+      "card-excerpt-font-size": "1rem",
+      "card-meta-font-size": "0.875rem",
+      "card-button-font-size": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 8px rgba(0, 0, 0, 0.1)"
+    },
+    "article_header_content_layout": {
+      "header-background-color": "var(--white)",
+      "header-text-color": "var(--text-dark)",
+      "content-background-color": "var(--white)",
+      "content-text-color": "var(--text-dark)",
+      "header-height": "auto",
+      "content-padding": "2rem",
+      "sidebar-width": "250px",
+      "header-title-font-size": "2.5rem",
+      "meta-font-size": "1rem",
+      "content-font-size": "1rem",
+      "content-heading-font-size": "1.75rem",
+      "header-border-bottom": "1px solid var(--text-muted)"
+    },
+    "urgent_assistance_callout_box": {
+      "callout-background-color": "var(--alert-red)",
+      "callout-text-color": "var(--white)",
+      "callout-button-color": "var(--white)",
+      "callout-padding": "1.5rem",
+      "callout-border-radius": "0.5rem",
+      "callout-box-shadow": "0 2px 10px rgba(0, 0, 0, 0.2)",
+      "callout-title-font-size": "1.5rem",
+      "callout-description-font-size": "1rem",
+      "callout-button-font-size": "1rem"
+    },
+    "contact_details_card": {
+      "card-background-color": "var(--white)",
+      "card-border-color": "var(--light-gray)",
+      "card-text-color": "var(--black)",
+      "card-btn-color": "var(--primary-color)",
+      "card-padding": "1rem",
+      "card-border-radius": "0.5rem",
+      "card-box-shadow": "0 4px 12px rgba(0, 0, 0, 0.1)",
+      "card-image-size": "80px",
+      "card-name-font-size": "1.2rem",
+      "card-info-font-size": "0.9rem",
+      "card-btn-font-size": "0.9rem"
+    },
+    "quote_request_form": {
+      "form-background-color": "var(--light-gray)",
+      "form-border-color": "var(--dark-gray)",
+      "form-text-color": "var(--black)",
+      "form-btn-color": "var(--primary-color)",
+      "form-padding": "2rem",
+      "form-border-radius": "0.5rem",
+      "form-shadow": "0 2px 10px rgba(0, 0, 0, 0.1)",
+      "form-input-height": "40px",
+      "form-font-size": "1rem"
+    },
+    "footer": {
+      "footer-background-color": "var(--bg-dark)",
+      "footer-text-color": "var(--text-light)",
+      "footer-heading-color": "var(--white)",
+      "footer-link-color": "#cbd5e1",
+      "footer-link-hover-color": "var(--accent-color)",
+      "footer-cta-color": "var(--accent-color)",
+      "footer-max-width": "var(--container)",
+      "footer-padding": "3rem 1.5rem 1.5rem",
+      "footer-column-gap": "var(--gap--xl)",
+      "footer-logo-width": "160px",
+      "footer-heading-font-size": "var(--text--md)",
+      "footer-text-font-size": "var(--text--sm)",
+      "footer-legal-font-size": "var(--text--xs)",
+      "footer-border-color": "rgba(255, 255, 255, 0.15)",
+      "footer-divider-size": "var(--divider-size)",
+      "footer-transition-duration": "var(--anim-transition-duration)"
+    }
+  },
+  "services": [
+    {
+      "service_name": "Tow Truck & Roadside Assistance",
+      "service_slug": "tow-truck-roadside-assistance",
+      "service_description": "Vehicle breakdowns, highway accidents, jump-starts, tire changes, and stranded motorists rescued 24/7.",
+      "service_icon_url": "icons/tow-truck.svg"
+    },
+    {
+      "service_name": "Emergency Locksmith Services",
+      "service_slug": "locksmith-services",
+      "service_description": "Rapid residential, commercial, and automotive lockouts, key replacement, and break-in lock repairs.",
+      "service_icon_url": "icons/locksmith.svg"
+    },
+    {
+      "service_name": "Plumbing & Drain Cleaning",
+      "service_slug": "plumbing-drain-cleaning",
+      "service_description": "Burst pipes, overflowing toilets, water heater leaks, and sewer line backups resolved immediately.",
+      "service_icon_url": "icons/plumbing.svg"
+    },
+    {
+      "service_name": "HVAC Repair & Installation",
+      "service_slug": "hvac-repair-installation",
+      "service_description": "Emergency AC system failures during summer heat waves and furnace outages during winter freezes.",
+      "service_icon_url": "icons/hvac.svg"
+    },
+    {
+      "service_name": "Water Damage & Restoration",
+      "service_slug": "water-damage-restoration",
+      "service_description": "Emergency indoor flooding, structural water extraction, drying, and professional mold mitigation.",
+      "service_icon_url": "icons/water-damage.svg"
+    },
+    {
+      "service_name": "Roofing & Storm Restoration",
+      "service_slug": "roofing-storm-restoration",
+      "service_description": "Severe wind/hail damage repair, fallen tree limb removal, active leaks, and emergency roof tarping.",
+      "service_icon_url": "icons/roofing.svg"
+    }
+  ],
+  "posts": [
+    {
+      "post_title": "What to Do When Your Car Breaks Down on a Busy Highway",
+      "post_slug": "car-breaks-down-on-highway",
+      "post_excerpt": "Stay safe, signal properly, and know when to call a professional roadside towing service.",
+      "post_date": "May 12, 2026",
+      "post_image_url": "images/blog-highway.jpg",
+      "post_category": "Roadside Safety"
+    },
+    {
+      "post_title": "How to Shut Off Your Main Water Valve During a Pipe Burst",
+      "post_slug": "shut-off-main-water-valve",
+      "post_excerpt": "Prevent catastrophic home flooding by locating and turning off your main water supply valve immediately.",
+      "post_date": "April 28, 2026",
+      "post_image_url": "images/blog-plumbing.jpg",
+      "post_category": "Plumbing Emergencies"
+    },
+    {
+      "post_title": "Recognizing Warning Signs of Electrical Hazards in Your Walls",
+      "post_slug": "recognizing-electrical-hazards",
+      "post_excerpt": "Smoking outlets, flickering lights, and sparking breaker panels require instant emergency electrical dispatch.",
+      "post_date": "April 15, 2026",
+      "post_image_url": "images/blog-electrical.jpg",
+      "post_category": "Electrical Safety"
+    },
+    {
+      "post_title": "Dealing With Emergency Roof Leaks After Severe Wind and Hail Storms",
+      "post_slug": "dealing-with-emergency-roof-leaks",
+      "post_excerpt": "Why emergency roof tarping is vital to protect your home's interior until permanent repairs can begin.",
+      "post_date": "March 30, 2026",
+      "post_image_url": "images/blog-roofing.jpg",
+      "post_category": "Storm Restoration"
+    },
+    {
+      "post_title": "What Causes AC Systems to Fail During Peak Summer Heat Waves?",
+      "post_slug": "ac-system-failures-summer",
+      "post_excerpt": "Capacitor blowouts, refrigerant leaks, and dirty coils are top culprits behind sudden cooling outages.",
+      "post_date": "March 14, 2026",
+      "post_image_url": "images/blog-hvac.jpg",
+      "post_category": "HVAC Care"
+    },
+    {
+      "post_title": "Emergency Residential Lockout Guide: Should You Pick or Call?",
+      "post_slug": "emergency-residential-lockout-guide",
+      "post_excerpt": "Avoid damaging your door frame or locks by relying on professional, licensed mobile locksmiths.",
+      "post_date": "February 22, 2026",
+      "post_image_url": "images/blog-locksmith.jpg",
+      "post_category": "Locksmith Tips"
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "template": "home",
+      "sections": [
+        "process-steps.html",
+        "before-after.html",
+        "stars-reviews.html",
+        "video-embed.html",
+        "faq-accordion.html",
+        "guarantee-block.html",
+        "pricing-table.html",
+        "service-area-tags.html"
+      ],
+      "tokens": {
+        "page_slug": "index.html",
+        "page_type": "Home",
+        "page_type_url": "index.html",
+        "page_title": "24/7 Emergency Dispatch & Roadside Services | RapidRescue Pro",
+        "page_meta_description": "Fast 24/7 emergency dispatch for towing, locksmith, plumbing, HVAC, electrical, and storm restoration. On-site in 30 minutes or less.",
+        "page_headline": "When Disaster Strikes, We Arrive in 30 Minutes or Less",
+        "page_subheadline": "24/7 emergency dispatch for roadside assistance, home lockouts, plumbing failures, electrical hazards, and storm damage.",
+        "page_cta_text": "Call Emergency Dispatch Now",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "services.html": {
+      "template": "service-index",
+      "sections": [
+        "service-grid.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "services.html",
+        "page_type": "Services Index",
+        "page_type_url": "services.html",
+        "page_title": "24/7 Emergency Services Directory | RapidRescue Pro",
+        "page_meta_description": "Explore our complete catalog of emergency roadside, automotive, plumbing, HVAC, electrical, and property restoration services.",
+        "page_headline": "Our 24/7 Emergency Response Services",
+        "page_subheadline": "Licensed and certified mobile specialists ready to deploy to your location at a moment's notice.",
+        "page_cta_text": "Request Immediate Dispatch",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "service-single.html": {
+      "template": "service-single",
+      "sections": [
+        "service-details.html",
+        "service-benefits.html",
+        "service-cta.html"
+      ],
+      "tokens": {
+        "page_slug": "service-single.html",
+        "page_type": "Single Service",
+        "page_type_url": "service-single.html",
+        "page_title": "Emergency Service Details | RapidRescue Pro",
+        "page_meta_description": "Professional emergency response, transparent pricing, and rapid on-site resolution for urgent situations.",
+        "page_headline": "Professional Emergency Support When You Need It Most",
+        "page_subheadline": "Expert technicians equipped with state-of-the-art tools to resolve your crisis quickly and safely.",
+        "page_cta_text": "Call For Immediate Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "blog.html": {
+      "template": "blog-index",
+      "sections": [
+        "blog-grid.html",
+        "blog-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "blog.html",
+        "page_type": "Blog Index",
+        "page_type_url": "blog.html",
+        "page_title": "Emergency Guides & Safety Tips | RapidRescue Pro",
+        "page_meta_description": "Read expert advice on handling roadside breakdowns, plumbing leaks, HVAC failures, and home security emergencies.",
+        "page_headline": "Emergency Preparedness & Safety Blog",
+        "page_subheadline": "Practical guides and expert advice to help you stay safe during unexpected home and vehicle emergencies.",
+        "page_cta_text": "Browse Articles",
+        "page_cta_url": "#articles"
+      }
+    },
+    "post-single.html": {
+      "template": "post-single",
+      "sections": [
+        "article-header.html",
+        "article-content.html",
+        "article-sidebar.html"
+      ],
+      "tokens": {
+        "page_slug": "post-single.html",
+        "page_type": "Single Post",
+        "page_type_url": "post-single.html",
+        "page_title": "Expert Emergency Guide | RapidRescue Pro",
+        "page_meta_description": "In-depth safety instructions and professional steps for managing critical home and roadside situations.",
+        "page_headline": "Expert Safety Guide & Emergency Insights",
+        "page_subheadline": "Learn what actions to take immediately when facing a sudden home or vehicle crisis.",
+        "page_cta_text": "Get Emergency Help",
+        "page_cta_url": "contact.html"
+      }
+    },
+    "contact.html": {
+      "template": "contact",
+      "sections": [
+        "contact-form.html",
+        "contact-details.html"
+      ],
+      "tokens": {
+        "page_slug": "contact.html",
+        "page_type": "Contact",
+        "page_type_url": "contact.html",
+        "page_title": "Contact & 24/7 Dispatch Hotline | RapidRescue Pro",
+        "page_meta_description": "Contact our 24/7 emergency dispatch team right away for immediate mobile assistance across the service area.",
+        "page_headline": "24/7 Emergency Dispatch Center",
+        "page_subheadline": "Call our hotline now for instant routing or submit an urgent dispatch request below.",
+        "page_cta_text": "Call Dispatch Hotline",
+        "page_cta_url": "tel:8885553637"
+      }
+    }
+  }
+}
