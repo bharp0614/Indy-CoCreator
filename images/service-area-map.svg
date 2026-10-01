@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Indianapolis service area map">
+  <rect width="800" height="450" fill="#e2e8f0"/>
+  <path d="M-20 300 C 150 260, 260 340, 420 290 S 700 230, 820 270" fill="none" stroke="#bfdbfe" stroke-width="18"/>
+  <g stroke="#ffffff" stroke-width="10" fill="none">
+    <path d="M0 225 H800"/>
+    <path d="M400 0 V450"/>
+    <path d="M60 60 L740 390"/>
+    <path d="M740 60 L60 390"/>
+  </g>
+  <ellipse cx="400" cy="225" rx="250" ry="175" fill="none" stroke="#f8fafc" stroke-width="14"/>
+  <g stroke="#cbd5e1" stroke-width="3" fill="none">
+    <path d="M0 110 H800"/><path d="M0 340 H800"/>
+    <path d="M200 0 V450"/><path d="M600 0 V450"/>
+  </g>
+  <circle cx="400" cy="225" r="150" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="3" stroke-dasharray="10 8"/>
+  <g font-family="system-ui, sans-serif" font-size="16" fill="#475569" text-anchor="middle">
+    <text x="400" y="45">Carmel · Fishers</text>
+    <text x="640" y="200">Lawrence</text>
+    <text x="400" y="420">Greenwood · Southport</text>
+    <text x="540" y="310">Beech Grove</text>
+  </g>
+  <g transform="translate(400 225)">
+    <path d="M0 0 C -6 -14, -22 -22, -22 -40 A 22 22 0 1 1 22 -40 C 22 -22, 6 -14, 0 0 Z" fill="#0f172a"/>
+    <circle cx="0" cy="-40" r="8" fill="#f59e0b"/>
+  </g>
+</svg>
