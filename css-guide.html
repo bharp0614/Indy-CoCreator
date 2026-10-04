@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Guide — Global.css Component Reference</title>
+  <link rel="stylesheet" href="css/global.css">
+  <style>
+    /* Guide-only styles — not part of your design system */
+    .guide-section {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px dashed #e2e8f0;
+    }
+    .guide-label {
+      font-family: monospace;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      background: #f1f5f9;
+      padding: 2px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    .guide-heading {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: #0f172a;
+    }
+    .guide-desc {
+      color: #64748b;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+    }
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.75rem;
+    }
+    .swatch {
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+    }
+    .swatch-color {
+      height: 60px;
+    }
+    .swatch-info {
+      padding: 6px 10px;
+      font-size: 0.7rem;
+      font-family: monospace;
+      background: white;
+    }
+    .demo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+    .spacer { height: 2rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       SECTION 0: HEADER (your actual header component)
+       ============================================================ -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">YourBrand</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:3176275668" class="phone-link">📞 (317) 627-5668</a>
+        <a href="#" class="btn btn-primary">Get Estimate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       SECTION 1: HERO
+       ============================================================ -->
+  <section class="hero">
+    <div class="container">
+      <h1>No Heat? No Cooling? No Wait.</h1>
+      <p>24/7 emergency HVAC service for Indianapolis and Central Indiana. Same-day diagnostics, upfront pricing, and licensed technicians standing by.</p>
+      <div class="hero-actions">
+        <a href="tel:3176275668" class="btn btn-primary">📞 Call Now</a>
+        <a href="#form-section" class="btn btn-secondary" style="color: white; border-color: rgba(255,255,255,0.4);">Schedule Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2: TRUST BAR
+       ============================================================ -->
+  <div class="trust-bar">
+    <div class="container trust-container">
+      <div class="trust-badge">🕐 24/7 Service</div>
+      <div class="trust-badge">🛡️ Licensed Pros</div>
+      <div class="trust-badge">📅 Same-Day Available</div>
+      <div class="trust-badge">✅ 100% Guaranteed</div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <!-- ============================================================
+       GUIDE START — Component Reference
+       ============================================================ -->
+  <main class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+
+    <h1 style="text-align: center; margin-bottom: 0.5rem;">🎨 CSS Component Guide</h1>
+    <p style="text-align: center; color: var(--color-text-muted); margin-bottom: 3rem;">
+      Edit <code>css/global.css</code> and save — this page auto-reloads. Every component below uses your CSS classes.
+    </p>
+
+    <!-- ---- COLORS ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">🎨 Color Tokens</h2>
+      <p class="guide-desc">These are your <code>--color-primary-*</code>, <code>--color-accent-*</code>, and <code>--color-neutral-*</code> scales. Edit lines 8–57 in global.css.</p>
+
+      <span class="guide-label">Primary (Slate)</span>
+      <div class="swatch-grid" style="margin-bottom: 1rem;">
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-50)"></div><div class="swatch-info">primary-50</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-100)"></div><div class="swatch-info">primary-100</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-200)"></div><div class="swatch-info">primary-200</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-300)"></div><div class="swatch-info">primary-300</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-400)"></div><div class="swatch-info">primary-400</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-500)"></div><div class="swatch-info">primary-500</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-600)"></div><div class="swatch-info">primary-600</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-700)"></div><div class="swatch-info">primary-700</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-800)"></div><div class="swatch-info">primary-800</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-primary-900)"></div><div class="swatch-info">primary-900</div></div>
+      </div>
+
+      <span class="guide-label">Accent (Blue)</span>
+      <div class="swatch-grid" style="margin-bottom: 1rem;">
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-50)"></div><div class="swatch-info">accent-50</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-100)"></div><div class="swatch-info">accent-100</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-200)"></div><div class="swatch-info">accent-200</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-300)"></div><div class="swatch-info">accent-300</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-400)"></div><div class="swatch-info">accent-400</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-500)"></div><div class="swatch-info">accent-500</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-600)"></div><div class="swatch-info">accent-600</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-700)"></div><div class="swatch-info">accent-700</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-800)"></div><div class="swatch-info">accent-800</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-accent-900)"></div><div class="swatch-info">accent-900</div></div>
+      </div>
+
+      <span class="guide-label">Semantic</span>
+      <div class="swatch-grid">
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-success-500)"></div><div class="swatch-info">success-500</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-warning-500)"></div><div class="swatch-info">warning-500</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-error-500)"></div><div class="swatch-info">error-500</div></div>
+        <div class="swatch"><div class="swatch-color" style="background: var(--color-info-500)"></div><div class="swatch-info">info-500</div></div>
+      </div>
+    </div>
+
+    <!-- ---- TYPOGRAPHY ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">📝 Typography</h2>
+      <p class="guide-desc">Headings use <code>var(--font-display)</code>, body uses <code>var(--font-sans)</code>. Edit lines 73–105.</p>
+
+      <span class="guide-label">&lt;h1&gt; — font-size-4xl</span>
+      <h1>Main Page Heading</h1>
+
+      <span class="guide-label">&lt;h2&gt; — font-size-3xl</span>
+      <h2>Section Heading</h2>
+
+      <span class="guide-label">&lt;h3&gt; — font-size-2xl</span>
+      <h3>Subsection Heading</h3>
+
+      <span class="guide-label">&lt;h4&gt; — font-size-xl</span>
+      <h4>Card or Block Heading</h4>
+
+      <span class="guide-label">&lt;p&gt; body text — font-size-base</span>
+      <p>This is body text using your base font settings. It should be readable, well-spaced, and comfortable. The color comes from <code>--color-text-body</code> and the line-height from <code>--line-height-base</code>.</p>
+
+      <span class="guide-label">&lt;a&gt; link</span>
+      <p>Here is a <a href="#">text link</a> using <code>--color-text-link</code>.</p>
+    </div>
+
+    <!-- ---- BUTTONS ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">🔘 Buttons</h2>
+      <p class="guide-desc">Class: <code>.btn</code> + variant. Edit lines 229–258.</p>
+
+      <div class="demo-row">
+        <span class="guide-label">.btn .btn-primary</span>
+      </div>
+      <div class="demo-row">
+        <a href="#" class="btn btn-primary">Primary Button</a>
+        <a href="#" class="btn btn-primary">📞 Call (317) 627-5668</a>
+        <a href="#" class="btn btn-primary">Get Free Estimate</a>
+      </div>
+
+      <div class="demo-row">
+        <span class="guide-label">.btn .btn-secondary</span>
+      </div>
+      <div class="demo-row">
+        <a href="#" class="btn btn-secondary">Secondary Button</a>
+        <a href="#" class="btn btn-secondary">Learn More →</a>
+        <a href="#" class="btn btn-secondary">View Services</a>
+      </div>
+    </div>
+
+    <!-- ---- CARDS ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">🃏 Cards</h2>
+      <p class="guide-desc">Class: <code>.card</code>. Hover them to see the lift effect. Edit lines 303–432.</p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-img-placeholder">Service Image</div>
+          <div class="card-content" style="padding: var(--space-4);">
+            <span class="card-tag">Emergency</span>
+            <h4 class="card-title">Water Damage Restoration</h4>
+            <p class="card-description">Fast water extraction, structural drying, and full restoration for Indianapolis homes.</p>
+            <div class="card-meta">
+              <span>24/7 Available</span>
+              <a href="#" class="btn btn-primary" style="font-size: 0.875rem; padding: 0.5rem 1rem; min-height: auto;">Get Help →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img-placeholder">Service Image</div>
+          <div class="card-content" style="padding: var(--space-4);">
+            <span class="card-tag">Maintenance</span>
+            <h4 class="card-title">HVAC Repair & Tune-Up</h4>
+            <p class="card-description">Furnace and AC diagnostics, same-day repair, and seasonal maintenance plans.</p>
+            <div class="card-meta">
+              <span>Same-Day Service</span>
+              <a href="#" class="btn btn-primary" style="font-size: 0.875rem; padding: 0.5rem 1rem; min-height: auto;">Book Now →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img-placeholder">Service Image</div>
+          <div class="card-content" style="padding: var(--space-4);">
+            <span class="card-tag">Urgent</span>
+            <h4 class="card-title">Emergency Plumbing</h4>
+            <p class="card-description">Burst pipes, drain clogs, and sewer backups fixed fast. Licensed Indianapolis plumbers.</p>
+            <div class="card-meta">
+              <span>Licensed & Insured</span>
+              <a href="#" class="btn btn-primary" style="font-size: 0.875rem; padding: 0.5rem 1rem; min-height: auto;">Call Now →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- FORMS ---- -->
+    <div class="guide-section" id="form-section">
+      <h2 class="guide-heading">📋 Forms</h2>
+      <p class="guide-desc">Classes: <code>.form-container</code>, <code>.form-group</code>, <code>.form-input</code>, <code>.form-label</code>. Edit lines 263–461.</p>
+
+      <div class="form-container">
+        <h3>Request Service or Quote</h3>
+        <p style="color: var(--color-text-muted);">Fill out the form below and we'll contact you shortly.</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-input" placeholder="(317) 555-0123">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Service Needed</label>
+            <select class="form-select">
+              <option>Select a service...</option>
+              <option>Water Damage Restoration</option>
+              <option>HVAC Repair</option>
+              <option>Emergency Plumbing</option>
+              <option>Electrical Repair</option>
+              <option>Roofing / Storm Damage</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Describe Your Issue</label>
+            <textarea class="form-textarea" placeholder="Tell us what's going on..."></textarea>
+          </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="consent">
+            <label for="consent">I agree to be contacted about my service request.</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ---- STATUS BADGES ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">🏷️ Status Badges</h2>
+      <p class="guide-desc">Classes: <code>.status-badge</code> + variant. Edit lines 563–586.</p>
+      <div class="demo-row">
+        <span class="status-badge status-completed">✅ Completed</span>
+        <span class="status-badge status-inprogress">🔄 In Progress</span>
+        <span class="status-badge status-planned">📋 Planned</span>
+      </div>
+    </div>
+
+    <!-- ---- FAQ ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">❓ FAQ Accordion</h2>
+      <p class="guide-desc">Uses <code>&lt;details&gt;</code> with class <code>.faq-item</code>. Edit lines 504–517.</p>
+
+      <details class="faq-item">
+        <summary>How quickly can you respond to an emergency?</summary>
+        <p>We have technicians on call 24/7 across Indianapolis and Central Indiana. Most emergency calls receive a response within 60 minutes.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do you work with insurance companies?</summary>
+        <p>Yes. We provide full damage documentation and work directly with your insurance adjuster to streamline the claims process.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What areas do you serve?</summary>
+        <p>We serve Indianapolis and all of Central Indiana including Carmel, Fishers, Greenwood, Lawrence, Plainfield, and surrounding communities.</p>
+      </details>
+    </div>
+
+    <!-- ---- CTA BANNER ---- -->
+    <div class="guide-section">
+      <h2 class="guide-heading">📣 CTA Banner</h2>
+      <p class="guide-desc">Class: <code>.cta-banner</code> + <code>.section-padding</code>. Edit lines 519–527.</p>
+    </div>
+  </main>
+
+  <!-- CTA Banner (full-width, outside container) -->
+  <section class="cta-banner section-padding">
+    <div class="container">
+      <h2>Ready to Get Started?</h2>
+      <p>Call now for a free consultation or fill out our quick form for a same-day callback.</p>
+      <div class="demo-row" style="justify-content: center;">
+        <a href="tel:3176275668" class="btn btn-primary">📞 Call (317) 627-5668</a>
+        <a href="#form-section" class="btn btn-secondary">Request a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>YourBrand</h3>
+          <p>24/7 emergency home services for Indianapolis and Central Indiana. Licensed, insured, and ready when you need us.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📞 (317) 627-5668</p>
+          <p>📧 info@yourbrand.com</p>
+          <p>📍 Indianapolis, IN</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 YourBrand. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       SHADOWS & SPACING REFERENCE (bottom of page)
+       ============================================================ -->
+  <div class="container" style="padding: 3rem 1rem;">
+    <div class="guide-section">
+      <h2 class="guide-heading">💫 Shadow Scale</h2>
+      <p class="guide-desc">Your shadow tokens from lines 131–139. Hover cards above to see shadow transitions too.</p>
+      <div class="demo-row">
+        <div style="width:120px;height:80px;background:white;border-radius:8px;box-shadow:var(--shadow-xs);display:grid;place-items:center;font-size:0.75rem;font-family:monospace;">shadow-xs</div>
+        <div style="width:120px;height:80px;background:white;border-radius:8px;box-shadow:var(--shadow-sm);display:grid;place-items:center;font-size:0.75rem;font-family:monospace;">shadow-sm</div>
+        <div style="width:120px;height:80px;background:white;border-radius:8px;box-shadow:var(--shadow-md);display:grid;place-items:center;font-size:0.75rem;font-family:monospace;">shadow-md</div>
+        <div style="width:120px;height:80px;background:white;border-radius:8px;box-shadow:var(--shadow-lg);display:grid;place-items:center;font-size:0.75rem;font-family:monospace;">shadow-lg</div>
+        <div style="width:120px;height:80px;background:white;border-radius:8px;box-shadow:var(--shadow-xl);display:grid;place-items:center;font-size:0.75rem;font-family:monospace;">shadow-xl</div>
+      </div>
+    </div>
+
+    <div class="guide-section">
+      <h2 class="guide-heading">📐 Spacing Scale</h2>
+      <p class="guide-desc">Your spacing tokens from lines 107–120. Each bar is the width of that spacing value.</p>
+      <div style="display:flex;flex-direction:column;gap:4px;">
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-1);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-1 (4px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-2);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-2 (8px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-4);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-4 (16px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-6);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-6 (24px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-8);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-8 (32px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-12);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-12 (48px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-16);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-16 (64px)</code></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="height:16px;width:var(--space-24);background:var(--color-accent-500);border-radius:2px;"></div><code style="font-size:0.7rem;">--space-24 (96px)</code></div>
+      </div>
+    </div>
+
+    <div class="guide-section" style="border-bottom: none;">
+      <h2 class="guide-heading">📏 Radius Scale</h2>
+      <p class="guide-desc">Your radius tokens from lines 122–129. Currently all set to 4px — try changing them!</p>
+      <div class="demo-row">
+        <div style="width:80px;height:80px;background:var(--color-accent-100);border:2px solid var(--color-accent-500);border-radius:var(--radius-sm);display:grid;place-items:center;font-size:0.65rem;font-family:monospace;">radius-sm<br>4px</div>
+        <div style="width:80px;height:80px;background:var(--color-accent-100);border:2px solid var(--color-accent-500);border-radius:var(--radius-md);display:grid;place-items:center;font-size:0.65rem;font-family:monospace;">radius-md<br>4px</div>
+        <div style="width:80px;height:80px;background:var(--color-accent-100);border:2px solid var(--color-accent-500);border-radius:var(--radius-lg);display:grid;place-items:center;font-size:0.65rem;font-family:monospace;">radius-lg<br>4px</div>
+        <div style="width:80px;height:80px;background:var(--color-accent-100);border:2px solid var(--color-accent-500);border-radius:var(--radius-xl);display:grid;place-items:center;font-size:0.65rem;font-family:monospace;">radius-xl<br>4px</div>
+        <div style="width:80px;height:80px;background:var(--color-accent-100);border:2px solid var(--color-accent-500);border-radius:var(--radius-full);display:grid;place-items:center;font-size:0.65rem;font-family:monospace;">radius-full<br>9999px</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

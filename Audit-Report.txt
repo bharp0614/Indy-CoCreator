@@ -1,0 +1,21 @@
+﻿FOLDER: C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator
+
+=== COUNTS ===
+Total files:   203
+Total folders: 110
+
+=== IMMEDIATE SUBFOLDERS ===
+
+Name                                       FullName                                                                    
+----                                       --------                                                                    
+.agents                                    C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\.agents                    
+.git                                       C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\.git                       
+.vscode                                    C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\.vscode                    
+css                                        C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\css                        
+data                                       C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\data                       
+group_a_emergency_restoration_brand_tokens C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\group_a_emergency_restor...
+pages                                      C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\pages                      
+sections                                   C:\Users\ping2\Desktop\0000-uigen\Indy-CoCreator\sections                   
+
+
+

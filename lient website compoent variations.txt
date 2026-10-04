@@ -1,0 +1,532 @@
+These are the homepage components for each of the seven master templates, in page order.
+
+1. Emergency Trade / Diagnostic
+
+HVAC, plumbing, electrical, sewer and drain, garage door, appliance repair.
+
+EmergencyHero
+MobileEmergencyCTA
+FastEmergencyForm
+TrustBar
+EmergencyServicesGrid
+DiagnosticProblemSelector
+WhyChooseUs
+ServiceArea
+HowItWorks
+Reviews
+EmergencyFAQ
+FinalCallCTA
+SiteFooter
+
+2. Emergency Flat-Rate Response
+Water damage, fire and smoke, mold, biohazard cleanup.
+
+EmergencyHero
+MobileEmergencyCTA
+FastEmergencyForm
+ResponseTrustBar
+WhatToDoFirst
+EmergencyTypesGrid
+ResponseProcess
+InsuranceAssistance
+BeforeAfterGallery
+ServiceArea
+CertificationsAndTrust
+Reviews
+EmergencyFAQ
+FinalCallCTA
+SiteFooter
+
+
+3. Project / Insurance-Driven Exterior Restoration
+Roofing, siding, windows, gutters, storm restoration.
+
+ProjectHero
+PrimaryEstimateCTA
+TrustBar
+ExteriorServicesGrid
+DamageOrProjectSelector
+InsuranceClaimsProcess
+FeaturedProjects
+MaterialsAndOptions
+WhyChooseUs
+ServiceArea
+Reviews
+ProjectFAQ
+FinalEstimateCTA
+SiteFooter
+
+4. Recurring Route Service
+Pest control, lawn care, cleaning, pool service.
+
+ServiceHero
+PrimaryQuoteCTA
+TrustBar
+ServicePlanCards
+ProblemOrPropertySelector
+HowServiceWorks
+TreatmentOrServiceBenefits
+SeasonalServices
+ServiceArea
+Reviews
+RecurringServiceFAQ
+FinalQuoteCTA
+SiteFooter
+
+5. Contractor / Visual Build
+Painting, remodeling, flooring, concrete, asphalt, fencing, decks.
+
+ProjectHero
+PrimaryEstimateCTA
+TrustBar
+ProjectServicesGrid
+FeaturedProjects
+BeforeAfterGallery
+ProjectProcess
+MaterialsAndOptions
+AboutPreview
+ServiceArea
+Reviews
+ProjectFAQ
+FinalEstimateCTA
+SiteFooter
+
+6. Heavy Site / Utility Work
+Excavation, septic, demolition, tree service.
+
+CapabilityHero
+PrimaryProjectCTA
+TrustAndEquipmentBar
+CapabilitiesGrid
+ProjectTypeSelector
+EquipmentAndCrew
+ProjectProcess
+SafetyAndCredentials
+FeaturedProjects
+CommercialResidentialSplit
+ServiceArea
+Reviews
+ProjectFAQ
+FinalProjectCTA
+SiteFooter
+7. Light Retail / Mobile Diagnostic
+
+Auto glass, mobile mechanic, non-emergency appliance repair, junk removal.
+
+ConvenienceHero
+PrimaryBookingCTA
+TrustBar
+ServiceTypeGrid
+VehicleItemOrProblemSelector
+HowBookingWorks
+MobileServiceBenefits
+PricingOrEstimatePreview
+ServiceArea
+Reviews
+BookingFAQ
+FinalBookingCTA
+SiteFooter
+
+The important distinction is that these are seven different homepage schemes. They can share component code—such as cards, reviews, FAQs, forms and service areas—but the component order and conversion logic change according to how customers buy that service.
+
+
+
+
+
+
+
+
+
+
+
+These are the default section titles and homepage forms for each master template. The wording can change by industry through JSON, but the structure stays consistent.
+
+## 1. Emergency Trade / Diagnostic
+
+**Section titles**
+
+
+
+
+1. Hero: **Fast Help for [Service Problem]**
+2. Trust bar: ResponseTrustBar
+3. Services: **Emergency Services We Handle**
+4. Problem selector: **What Problem Are You Having?**
+5. CertificationsAndTrust
+6. Final CTA: **Need Help Right Now?**
+
+**Homepage form: `FastEmergencyForm`**
+
+Maximum four visible fields:
+
+* Name
+* Phone
+* ZIP code
+* What is happening?
+
+Button: **Request Immediate Help**
+
+The phone number and **Call Now** button remain the primary action.
+
+
+
+
+
+
+
+
+home
+
+1. Hero: **Fast Help for [Service Problem]**
+2. Trust bar: ResponseTrustBar
+3. Services: **Emergency Services We Handle**
+4. Problem selector: **What Problem Are You Having?**
+5. CertificationsAndTrust
+6. Final CTA: **Need Help Right Now?**
+
+
+Contact page — 5 sections
+Contact Hero
+Phone, availability and short introduction.
+Contact Form
+Name, phone, service needed and message.
+Service Area and Hours
+Map, cities served and operating hours.
+Reviews and Quick Questions
+Two or three reviews with a short FAQ.
+Final Call CTA
+Call Now button and verified emergency availability.
+
+
+Services page — 5 sections
+Services Hero
+Main service message, phone number and CTA.
+Our Services
+Service cards with short descriptions.
+How We Help
+Common problems, repair needs or service situations.
+Meet the Team
+Team introduction, experience and verified credentials.
+Final Service CTA
+Call Now or request service.
+
+
+pages/
+├── Home
+│   ├── SiteHeader
+│   │   └── MainMenu
+│   ├── FastHelpHero
+│   │   └── EmergencyForm
+│   ├── ResponseTrustBar
+│   ├── EmergencyServices
+│   ├── ProblemSelector
+│   ├── CertificationsAndTrust
+│   ├── FinalEmergencyCTA
+│   └── SiteFooter
+├── Contact
+│   ├── SiteHeader
+│   │   └── MainMenu
+│   ├── ContactHero
+│   ├── ContactForm
+│   ├── ServiceAreaAndHours
+│   ├── ReviewsAndQuickQuestions
+│   ├── FinalCallCTA
+│   └── SiteFooter
+└── Services
+    ├── SiteHeader
+    │   └── MainMenu
+    ├── ServicesHero
+    ├── OurServices
+    ├── HowWeHelp
+    ├── MeetTheTeam
+    ├── FinalServiceCTA
+    └── SiteFooter
+
+
+
+
+
+
+
+
+
+
+
+
+
+Group A
+
+Home -> section 1 -> hero -> form
+
+Desktop hero: about 500–600px tall
+Layout: 70% content/image, 30% form
+Desktop image: 2000 × 1000px, WebP
+Mobile image: 900 × 1200px
+Tablet image:
+Overlay: dark left gradient for text; light bottom shadow
+Headline: bold condensed font, around 64–80px desktop
+Body font: clean sans-serif, around 18–22px
+Form: 340–400px wide
+Fields: name, phone, issue, ZIP/address
+Button: Request Service
+Mobile: stack content and form; keep sticky Call Now button
+
+
+
+
+
+
+
+
+
+
+Subpage hero variation
+Height: 320–420px desktop
+Image: 1600 × 700px, WebP
+Layout: 55% text, 45% image focus
+Overlay: dark left gradient
+Breadcrumb: Home → Services → Current Service
+Headline: service or project name, 48–64px
+Supporting text: one short sentence
+Primary CTA: Call Now or Request Estimate
+Secondary CTA: View All Services
+Trust line: licensed, local, response time, or warranty
+Form: no full form in hero
+Mobile: 400–550px; text and CTA over image
+Below hero: service details or project information immediately
+
+Example:
+
+Emergency Water Heater Repair
+Fast diagnosis and dependable repairs throughout Indianapolis.
+
+Call Now · Request Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## 2. Emergency Flat-Rate Response
+
+**Section titles**
+
+1. Hero: **24/7 Help for Property Damage**
+2. Trust bar: no title
+3. First actions: **What to Do Right Now**
+4. Emergency types: **Damage We Respond To**
+5. Process: **Our Emergency Response Process**
+6. Insurance: **Help With the Insurance Process**
+7. Gallery: **Restoration Work and Results**
+8. Service area: **Our Emergency Response Area**
+9. Credentials: **Trained, Equipped and Ready to Respond**
+10. Reviews: **Property Owners Trust Our Team**
+11. FAQ: **Restoration and Insurance Questions**
+12. Final CTA: **Protect Your Property—Call Now**
+
+**Homepage form: `PropertyDamageForm`**
+
+* Name
+* Phone
+* Property ZIP code
+* Type of damage
+
+Button: **Request Emergency Response**
+
+Optional selectable damage types:
+
+* Water
+* Fire or smoke
+* Mold
+* Sewage
+* Other
+
+---
+
+## 3. Insurance-Driven Exterior Restoration
+
+**Section titles**
+
+1. Hero: **Restore and Protect Your Home**
+2. Trust bar: no title
+3. Services: **Exterior Services for Your Property**
+4. Project selector: **What Does Your Property Need?**
+5. Insurance: **Storm Damage and Insurance Claim Support**
+6. Projects: **Recent Exterior Projects**
+7. Materials: **Materials Built for Lasting Protection**
+8. Why choose us: **Why Homeowners Choose [Business Name]**
+9. Service area: **Serving Indianapolis and Central Indiana**
+10. Reviews: **What Homeowners Say**
+11. FAQ: **Exterior Project Questions**
+12. Final CTA: **Let’s Inspect Your Property**
+
+**Homepage form: `InspectionRequestForm`**
+
+* Name
+* Phone
+* Email
+* Property ZIP code
+* Service needed
+* Is this related to storm damage?
+
+Button: **Request an Inspection**
+
+Do not promise insurance approval or guaranteed coverage.
+
+---
+
+## 4. Recurring Route Service
+
+**Section titles**
+
+1. Hero: **Reliable [Service] for Your Home**
+2. Trust bar: no title
+3. Plans: **Choose the Right Service Plan**
+4. Problem selector: **How Can We Help?**
+5. Process: **Simple, Reliable Service**
+6. Benefits: **A Better Way to Care for Your Property**
+7. Seasonal services: **Services for Every Season**
+8. Service area: **See If We Serve Your Neighborhood**
+9. Reviews: **Trusted by Local Property Owners**
+10. FAQ: **Service Plan Questions**
+11. Final CTA: **Ready for Dependable Service?**
+
+**Homepage form: `ServiceQuoteForm`**
+
+* Name
+* Phone
+* Email
+* Property ZIP code
+* Service needed
+* One-time or recurring service
+
+Button: **Get My Quote**
+
+For pest control, an optional field can ask: **What pest are you seeing?**
+
+---
+
+## 5. Contractor / Visual Build
+
+**Section titles**
+
+1. Hero: **Bring Your Property Project to Life**
+2. Trust bar: no title
+3. Services: **What We Build and Improve**
+4. Projects: **Featured Projects**
+5. Gallery: **See the Difference**
+6. Process: **From First Conversation to Finished Project**
+7. Materials: **Materials, Finishes and Project Options**
+8. About: **Experienced Work. Personal Service.**
+9. Service area: **Projects Across Indianapolis and Nearby Areas**
+10. Reviews: **What Our Customers Say**
+11. FAQ: **Planning Your Project**
+12. Final CTA: **Tell Us About Your Project**
+
+**Homepage form: `ProjectEstimateForm`**
+
+* Name
+* Phone
+* Email
+* Property ZIP code
+* Project type
+* Project description
+* Preferred timeframe
+
+Button: **Request an Estimate**
+
+Photo upload belongs on the full estimate page, not necessarily the homepage.
+
+---
+
+## 6. Heavy Site / Utility Work
+
+**Section titles**
+
+1. Hero: **Equipment, Experience and Crews for the Job**
+2. Trust bar: no title
+3. Capabilities: **Our Site and Utility Capabilities**
+4. Project selector: **What Kind of Project Are You Planning?**
+5. Equipment: **Equipped for Demanding Work**
+6. Process: **How We Plan and Complete the Work**
+7. Safety: **Safety, Compliance and Site Control**
+8. Projects: **Recent Work**
+9. Customer types: **Residential and Commercial Projects**
+10. Service area: **Our Project Service Area**
+11. Reviews: **Trusted on Jobs Across Central Indiana**
+12. FAQ: **Project Planning Questions**
+13. Final CTA: **Discuss Your Project With Our Team**
+
+**Homepage form: `ProjectConsultationForm`**
+
+* Name
+* Company name, optional
+* Phone
+* Email
+* Project location
+* Project type
+* Project description
+* Preferred start date
+
+Button: **Request a Project Consultation**
+
+Plans, photos and site documents can be collected on the full project-request page.
+
+---
+
+## 7. Light Retail / Mobile Diagnostic
+
+**Section titles**
+
+1. Hero: **Convenient Service That Comes to You**
+2. Trust bar: no title
+3. Services: **Choose the Service You Need**
+4. Problem selector: **What Can We Help With?**
+5. Process: **Book Your Service in Three Simple Steps**
+6. Benefits: **Why Customers Choose Mobile Service**
+7. Pricing: **Straightforward Estimates Before Work Begins**
+8. Service area: **Check Our Mobile Service Area**
+9. Reviews: **What Local Customers Say**
+10. FAQ: **Booking and Service Questions**
+11. Final CTA: **Ready to Schedule Your Service?**
+
+**Homepage form: `MobileServiceRequestForm`**
+
+* Name
+* Phone
+* Service ZIP code
+* Service needed
+* Vehicle, appliance or item details
+* Preferred service date
+
+Button: **Request Service**
+
+The exact details field changes by industry:
+
+* Auto glass: year, make, model and damaged glass
+* Mobile mechanic: year, make, model and problem
+* Appliance repair: appliance type, brand and problem
+* Junk removal: items and approximate amount
+
+These are the **homepage forms only**. Contact forms, complete estimate forms, job applications and insurance-detail forms belong on their appropriate internal pages.

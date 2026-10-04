@@ -1,0 +1,154 @@
+import os
+import urllib.parse
+from html.parser import HTMLParser
+
+class SimpleHTMLValidator(HTMLParser):
+    def __init__(self, filename):
+        super().__init__()
+        self.filename = filename
+        self.errors = []
+        self.tags = []
+        
+    def handle_starttag(self, tag, attrs):
+        self.tags.append(tag)
+        # Check href paths
+        for attr, val in attrs:
+            if attr in ('href', 'src'):
+                if val.startswith(('http://', 'https://', 'mailto:', 'tel:', '#')):
+                    continue
+                parsed = urllib.parse.urlparse(val)
+                if parsed.path:
+                    # Resolve relative to the file's dir
+                    file_dir = os.path.dirname(self.filename)
+                    target_path = os.path.normpath(os.path.join(file_dir, parsed.path))
+                    if not os.path.exists(target_path):
+                        self.errors.append(f"Broken link '{val}' -> resolves to non-existent path: {target_path}")
+
+    def handle_endtag(self, tag):
+        if tag in self.tags:
+            while self.tags:
+                t = self.tags.pop()
+                if t == tag:
+                    break
+        else:
+            self.errors.append(f"Unmatched closing tag: </{tag}>")
+
+def verify():
+    base_dir = r"C:\Users\ping2\Desktop\template-framework"
+    
+    files = [
+        # Data
+        "data/client.json",
+        # CSS
+        "css/tokens.css", "css/base.css", "css/typography.css", "css/layout.css", "css/forms.css", "css/global.css",
+        "css/sections/conversion.css", "css/sections/trust.css", "css/sections/service-based.css", "css/sections/project-based.css", "css/sections/professional.css",
+        "css/responsive.css", "css/motion.css", "css/utilities.css", "css/sections/content.css",
+        # Root Pages
+        "index.html", "projects.html", "use-cases.html", "contact.html",
+        # Subdirectories
+        "pages/campaigns/landing-page.html",
+        "pages/campaigns/lead-funnel.html",
+        "pages/campaigns/promotion-single.html",
+        "pages/campaigns/promotions-index.html",
+        "pages/campaigns/thank-you.html",
+        "pages/content/blog-index.html",
+        "pages/content/blog-single.html",
+        "pages/content/why-us.html",
+        "pages/content/service-area.html",
+        "pages/legal/accessibility.html",
+        "pages/legal/privacy-policy.html",
+        "pages/legal/sms-terms.html",
+        "pages/legal/terms.html",
+        "pages/local/location-single.html",
+        "pages/local/locations-index.html",
+        "pages/local/partner-single.html",
+        "pages/local/partners-index.html",
+        "pages/local/service-location.html",
+        "pages/project-based/before-after-index.html",
+        "pages/project-based/before-after-single.html",
+        "pages/project-based/project-single.html",
+        "pages/project-based/projects-index.html",
+        "pages/project-based/use-case-single.html",
+        "pages/project-based/use-cases-index.html",
+        "pages/recruiting/careers-index.html",
+        "pages/recruiting/job-single.html",
+        "pages/service-based/emergency-service.html",
+        "pages/service-based/financing.html",
+        "pages/service-based/pricing.html",
+        "pages/service-based/service-single.html",
+        "pages/service-based/services-index.html",
+        "pages/shared/contact.html",
+        "pages/shared/faq.html",
+        "pages/shared/home.html",
+        "pages/shared/now-hiring.html",
+        "pages/shared/reviews.html",
+        "pages/system/404.html",
+        "pages/system/sitemap.html",
+        "pages/group-a-service-based/index.html",
+        "pages/group-a-service-based/services.html",
+        "pages/group-a-service-based/contact.html",
+        "pages/group-a-service-based/now-hiring.html",
+        "pages/group-b-project-based/index.html",
+        "pages/group-b-project-based/use-cases.html",
+        "pages/group-b-project-based/projects.html",
+        "pages/group-b-project-based/contact.html",
+        "pages/group-c-professional/index.html",
+        "pages/group-c-professional/services.html",
+        "pages/group-c-professional/contact.html",
+        "pages/group-c-professional/now-hiring.html"
+    ]
+    
+    all_ok = True
+    html_scanned = 0
+    for f in files:
+        filepath = os.path.join(base_dir, f)
+        if not os.path.exists(filepath):
+            print(f"[FAIL] {f} does not exist!")
+            all_ok = False
+            continue
+            
+        if f.endswith(".html"):
+            html_scanned += 1
+            with open(filepath, 'r', encoding='utf-8') as file:
+                content = file.read()
+                
+            parser = SimpleHTMLValidator(filepath)
+            parser.feed(content)
+            
+            if parser.errors:
+                print(f"[FAIL] {f} has errors:")
+                for err in parser.errors:
+                    print(f"  - {err}")
+                all_ok = False
+            else:
+                pass # print(f"[OK] {f} verified.")
+
+    print(f"\nScanned {html_scanned} HTML template pages.")
+            
+    # Check tokens.css and global.css
+    css_files = ["css/tokens.css", "css/global.css"]
+    for f in css_files:
+        filepath = os.path.join(base_dir, f)
+        if os.path.exists(filepath):
+            print(f"[OK] CSS file {f} exists.")
+        else:
+            print(f"[FAIL] CSS file {f} does not exist!")
+            all_ok = False
+            
+    # Check client.json
+    json_files = ["data/client.json"]
+    for f in json_files:
+        filepath = os.path.join(base_dir, f)
+        if os.path.exists(filepath):
+            print(f"[OK] Data file {f} exists.")
+        else:
+            print(f"[FAIL] Data file {f} does not exist!")
+            all_ok = False
+
+    if all_ok:
+        print("\nAll files, paths, and HTML components verified successfully!")
+    else:
+        print("\nSome verifications failed!")
+
+if __name__ == "__main__":
+    verify()
